@@ -31,6 +31,14 @@ section {
   position: absolute;
 }
 
+.game-inner {
+  height: 90%;
+  width: 90%;
+  background-color: black;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid grey;
+}
 
 /* colour buttons styles */
 .red,
