@@ -10,3 +10,37 @@ body {
 .hidden {
   display: none;
 }
+
+/* colour buttons styles */
+.red,
+.blue,
+.green,
+.purple {
+  width: 70%;
+  height: 70%;
+  position: relative;
+}
+
+.red {
+  background-color: red;
+  right: 56px;
+  bottom: 56px;
+}
+
+.blue {
+  background-color: blue;
+  left: 141px;
+  top: -251px;
+}
+
+.purple {
+  background-color: rgb(148, 20, 148);
+  bottom: 444px;
+  right: 56px;
+}
+
+.green {
+  background-color: green;
+  left: 141px;
+  bottom: 249px;
+}
