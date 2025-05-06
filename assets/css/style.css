@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(5, 5, 20);
+  height: 100vh;
+  margin: 0;
+  scroll-behavior: none;
+}
+
