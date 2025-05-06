@@ -73,3 +73,23 @@ section {
   left: 141px;
   bottom: 249px;
 }
+
+/* center interface */
+
+.center-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 3px solid grey;
+  color: white;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin-top: -232%;
+  margin-left: 20%;
+  z-index: 100;
+  position: absolute;
+}
+
