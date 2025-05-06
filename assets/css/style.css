@@ -7,3 +7,6 @@ body {
   scroll-behavior: none;
 }
 
+.hidden {
+  display: none;
+}
