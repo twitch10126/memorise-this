@@ -93,3 +93,11 @@ section {
   position: absolute;
 }
 
+#score {
+  background-color: rgb(3, 3, 70);
+  border: 1px solid grey;
+  width: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
