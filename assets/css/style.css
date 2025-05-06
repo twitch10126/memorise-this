@@ -101,3 +101,8 @@ section {
   margin-top: 10px;
 }
 
+main {
+  margin-bottom: 150%;
+  height: auto;
+  flex-grow: 1;
+}
