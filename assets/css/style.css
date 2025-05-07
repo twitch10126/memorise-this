@@ -92,6 +92,13 @@ section {
   position: absolute;
 }
 
+p {
+  width: 50px;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
 #score {
   background-color: rgb(3, 3, 70);
   border: 1px solid grey;
