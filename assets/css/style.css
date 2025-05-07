@@ -24,6 +24,10 @@ h1 {
   display: none;
 }
 
+.border {
+  border: 1px solid grey;
+}
+
 header {
   background: linear-gradient(rgb(42, 19, 63), rgb(3, 3, 12));
 }
