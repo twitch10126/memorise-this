@@ -11,6 +11,15 @@ body {
   scroll-behavior: none;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Cutive Mono", monospace;
+  text-shadow: 2px 2px 15px rgb(7, 7, 247), -2px -2px 15px rgb(160, 2, 160),
+    1px 1px 3px white;
+  font-size: 3em;
+}
+
 .hidden {
   display: none;
 }
