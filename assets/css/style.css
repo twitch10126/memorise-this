@@ -203,3 +203,19 @@ footer {
   }
 }
 
+
+/* desktop and (screens 1440px and larger) */
+
+@media screen and (min-width: 1440px){
+
+  .game-outter {
+    height: 60%;
+    width: 40%;
+  }
+
+  .center-circle p {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 120px;
+  }
+}
