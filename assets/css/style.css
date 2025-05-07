@@ -1,4 +1,7 @@
-/* main styles */
+/* import Cutive Mono from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+/* general styles */
 body {
   display: flex;
   flex-direction: column;
