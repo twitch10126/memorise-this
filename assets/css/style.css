@@ -187,18 +187,25 @@ i {
 
 /* media queries */
 
-/* tablets and (screens 768px and larger) */
-@media screen and (min-width: 768px){
+/* medium phones and (screens 425px and larger) */
 
-  .game-outter {
-    height: 400px;
-    width: 400px;
+@media screen and (min-width: 425px) {
+  .center-circle {
+    font-size: 1.5em;
   }
 
-  .center-circle p {
-    font-size: 20px;
-    margin-top: 20px;
-    width: 100px;
+  .overlay-text {
+    font-size: 17px;
+  }
+
+}
+
+/* tablets and (screens 768px and larger) */
+
+@media screen and (min-width: 768px) {
+  .game-outter {
+    height: 70vh;
+    width: 70vh;
   }
   
   #score {
@@ -206,38 +213,16 @@ i {
     margin-top: 10px;
   }
 
-  h3 {
-    margin-bottom: 15px;
-    font-size: 25px;
-  }
-}
-
-
-/* small laptops and (screens 1024px and larger) */
-
-@media screen and (min-width: 1024px){
-   h3{
-    font-size: 32px;
-   }
-  .game-outter {
-    height: 500px;
-    width: 500px;
-  }
-}
-
-
-/* desktop and (screens 1440px and larger) */
-
-@media screen and (min-width: 1440px){
-
-  .game-outter {
-    height: 550px;
-    width: 550px;
+  .center-circle {
+    font-size: 2em;
   }
 
-  .center-circle p {
-    font-size: 25px;
-    margin-top: 20px;
-    width: 120px;
+  .start {
+    margin-top: 30px;
   }
+
+  .overlay-text {
+    font-size: 23px;
+  }
+
 }
