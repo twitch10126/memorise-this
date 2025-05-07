@@ -61,8 +61,9 @@ footer {
   width: 310px;
   background-color: black;
   border-radius: 50%;
-  box-shadow: 0px 0px 25px rgb(250, 248, 248);
+  box-shadow: 0px 0px 35px rgb(42, 19, 63), 0px 0px 30px rgb(250, 248, 248);
   position: absolute;
+  border: 1px solid white;
 }
 
 .game-inner {
