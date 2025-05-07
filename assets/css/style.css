@@ -156,10 +156,15 @@ i {
 }
 
 
+/* targets Start/Score: text to be altered in javaScript*/
+.start {
+  min-width: 50px;
+  width: 40%;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 15px;
   padding: 5px;
+  font-size: 1em;
 }
 
 #score {
