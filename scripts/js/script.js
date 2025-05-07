@@ -9,4 +9,8 @@ $(document).ready(function () {
         buttons: ["red", "blue", "green", "purple"],
     };
 
+    function startGame() {
+        console.log("Game has started");
+    };
+
 });
