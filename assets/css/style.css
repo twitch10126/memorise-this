@@ -109,9 +109,14 @@ p {
 }
 
 main {
-  margin-bottom: 150%;
+  display: flex;
+  justify-content: center;
   height: auto;
   flex-grow: 1;
+}
+h1 {
+  color: white;
+  text-align: center;
 }
 
 footer {
