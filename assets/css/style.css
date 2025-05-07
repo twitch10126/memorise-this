@@ -100,11 +100,12 @@ p {
 }
 
 #score {
-  background-color: rgb(3, 3, 70);
+  background-color: rgb(37, 36, 51);
   border: 1px solid grey;
-  width: 20px;
+  width: fit-content;
+  max-width: 120px;
   text-align: center;
-  margin-top: 10px;
+  padding: 1px 2px;
 }
 
 main {
