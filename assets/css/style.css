@@ -24,9 +24,31 @@ h1 {
   display: none;
 }
 
+header {
+  background: linear-gradient(rgb(42, 19, 63), rgb(3, 3, 12));
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  flex-grow: 1;
+}
+
 section {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(rgb(3, 3, 12), rgb(42, 19, 63));
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
