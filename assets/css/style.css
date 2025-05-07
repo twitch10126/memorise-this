@@ -1,6 +1,15 @@
 /* import Cutive Mono from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 
+/* variables */
+:root {
+  --background-color: rgb(5, 5, 20);
+  --gradient-color1: rgb(42, 19, 63);
+  --gradient-color2: rgb(3, 3, 12);
+  --highlight: grey;
+  --size-vw: 90vw;
+}
+
 /* general styles */
 body {
   display: flex;
