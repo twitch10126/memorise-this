@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome script-->
+    <script src="https://kit.fontawesome.com/e41725af1c.js" crossorigin="anonymous"></script>
     <!-- Custom  CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Memorise This</title>
@@ -27,8 +29,11 @@
                 </div>
                 <!-- center circle holds the start button and score -->
                 <div class="center-circle">
-                    <h3>Memorise This</h3>
-                    <p class="border">Start</p> <!-- before game begins set to Start afterwards set to Score: -->
+                    <div class="rules ">
+                        <i class="fa-solid fa-scroll fa-3x"></i>
+                        <span class="overlay-text">Rules</span>
+                    </div>
+                    <div class="start border">Start</div> <!-- before game begins set to Start afterwards set to Score: -->
                     <div id="score" class="hidden">5</div>
                 </div>
             </div>
