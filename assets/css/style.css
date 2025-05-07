@@ -127,7 +127,7 @@ footer {
   position: absolute;
 }
 
-p {
+.center-circle p {
   width: 50px;
   text-align: center;
   margin-top: -5px;
