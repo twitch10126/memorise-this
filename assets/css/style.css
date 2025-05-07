@@ -190,3 +190,16 @@ footer {
   }
 }
 
+
+/* small laptops and (screens 1024px and larger) */
+
+@media screen and (min-width: 1024px){
+   h3{
+    font-size: 32px;
+   }
+  .game-outter {
+    height: 60%;
+    width: 50%;
+  }
+}
+
