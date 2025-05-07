@@ -1,3 +1,4 @@
+/* main styles */
 body {
   display: flex;
   flex-direction: column;
@@ -26,7 +27,6 @@ section {
   width: 310px;
   background-color: black;
   border-radius: 50%;
-  margin-top: 200%;
   box-shadow: 0px 0px 25px rgb(250, 248, 248);
   position: absolute;
 }
@@ -81,14 +81,13 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   background-color: black;
   border: 3px solid grey;
   color: white;
   border-radius: 50%;
   width: 50%;
   height: 50%;
-  margin-top: -232%;
-  margin-left: 20%;
   z-index: 100;
   position: absolute;
 }
