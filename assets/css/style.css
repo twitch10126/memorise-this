@@ -161,3 +161,32 @@ footer {
   padding-right: 20px;
   text-align: right;
 }
+
+/* media queries */
+
+/* tablets and (screens 768px and larger) */
+@media screen and (min-width: 768px){
+
+  .game-outter {
+    height: 60%;
+    width: 70%;
+  }
+
+  .center-circle p {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+  #score {
+    max-width: 220px;
+    margin-top: 10px;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+}
+
