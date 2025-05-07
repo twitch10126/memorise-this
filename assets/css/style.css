@@ -14,7 +14,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: rgb(5, 5, 20);
+  background-color: var(--background-color);
   height: 100vh;
   margin: 0;
   scroll-behavior: none;
@@ -29,18 +29,24 @@ h1 {
   font-size: 3em;
 }
 
+
+/* classes to be used in javaScript */
+/* hides an element */
 .hidden {
   display: none;
 }
 
+/* adds a border to an element*/
 .border {
-  border: 1px solid grey;
+  border: 1px solid var(--highlight);
 }
 
+/* page header */
 header {
-  background: linear-gradient(rgb(42, 19, 63), rgb(3, 3, 12));
+  background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
 }
 
+/* main section  */
 main {
   display: flex;
   justify-content: center;
@@ -48,30 +54,21 @@ main {
   flex-grow: 1;
 }
 
+/* game section */
 section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: linear-gradient(rgb(3, 3, 12), rgb(42, 19, 63));
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 
 /* game object styles */
 .game-outter {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 310px;
-  width: 310px;
+  height: var(--size-vw);
+  width: var(--size-vw);
   background-color: black;
   border-radius: 50%;
   box-shadow: 0px 0px 35px rgb(42, 19, 63), 0px 0px 30px rgb(250, 248, 248);
@@ -79,6 +76,7 @@ footer {
   border: 1px solid white;
 }
 
+/* container holds coloured buttons */
 .game-inner {
   display: flex;
   justify-content: center;
@@ -89,7 +87,7 @@ footer {
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  border: 2px solid grey;
+  border: 2px solid var(--highlight);
 }
 
 /* colour buttons styles */
@@ -128,7 +126,6 @@ footer {
 }
 
 /* center interface */
-
 .center-circle {
   display: flex;
   flex-direction: column;
@@ -136,7 +133,7 @@ footer {
   align-items: center;
   overflow: hidden;
   background-color: black;
-  border: 3px solid grey;
+  border: 3px solid var(--highlight);
   color: white;
   border-radius: 50%;
   width: 50%;
@@ -176,9 +173,10 @@ i {
   font-size: 1em;
 }
 
+/* targets score box */
 #score {
   background-color: rgb(37, 36, 51);
-  border: 1px solid grey;
+  border: 1px solid var(--highlight);
   width: fit-content;
   max-width: 120px;
   text-align: center;
@@ -186,13 +184,26 @@ i {
   overflow: hidden;
 }
 
+/* footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(var(--gradient-color2), var(--gradient-color1));
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /* copyrite styles */
 .copyrite {
   font-size: 12px;
-  color: gray;
+  color: var(--highlight);
   padding-right: 20px;
   text-align: right;
 }
+
 
 /* media queries */
 
