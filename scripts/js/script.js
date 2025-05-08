@@ -18,6 +18,7 @@ $(document).ready(function () {
         $(".overlay-text").addClass("hidden");
         $(".start").removeClass("border");
         $(".start").text("Score:").css("font-size", "2em","width", "90%");
+        $("#score").removeClass("hidden");
         console.log("Game has started");
     };
 
