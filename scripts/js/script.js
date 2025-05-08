@@ -23,6 +23,10 @@ $(document).ready(function () {
     };
 
 
+    function nextColor(){
+        
+    }
+
      // Event listeners
 
      $(".start").on("click", startGame);
