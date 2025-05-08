@@ -8,6 +8,7 @@ $(document).ready(function () {
         gameSequence: [],
         userSequence: [],
         gameover: false,
+        colors: ["red", "blue", "green", "purple"],
     };
 
     // start game function 
