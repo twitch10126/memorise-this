@@ -13,4 +13,8 @@ $(document).ready(function () {
         console.log("Game has started");
     };
 
+
+     // Event listeners
+
+     $(".start").on("click", startGame);
 });
