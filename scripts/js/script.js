@@ -25,6 +25,10 @@ $(document).ready(function () {
         nextColor();
     };
 
+    /**
+     * The nextColor function generates a random color from the buttons array,
+     * then pushes the randomColor to the gameSequence array.
+     */
 
     function nextColor(){
         randomColor = game.colors[(Math.floor(Math.random() * 4))];
