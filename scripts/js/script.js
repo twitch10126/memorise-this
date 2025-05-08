@@ -16,6 +16,7 @@ $(document).ready(function () {
         userSequence = [];
         $("i").addClass("hidden");
         $(".overlay-text").addClass("hidden");
+        $(".start").removeClass("border");
         console.log("Game has started");
     };
 
