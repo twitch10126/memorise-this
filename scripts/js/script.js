@@ -2,11 +2,12 @@
 // when the document is fully loaded the script will run
 $(document).ready(function () {
 
+    // game object
     let game = {
         round: 1,
         gameSequence: [],
         userSequence: [],
-        buttons: ["red", "blue", "green", "purple"],
+        gameover: false,
     };
 
     // start game function 
