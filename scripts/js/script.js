@@ -14,6 +14,8 @@ $(document).ready(function () {
         game.round = 1;
         gameSequence = [];
         userSequence = [];
+        $("i").addClass("hidden");
+        $(".overlay-text").addClass("hidden");
         console.log("Game has started");
     };
 
