@@ -25,6 +25,8 @@ $(document).ready(function () {
 
     function nextColor(){
         randomColor = game.colors[(Math.floor(Math.random() * 4))];
+        game.gameSequence.push(randomColor);
+        console.log("Game Sequence:", game.gameSequence);
     }
 
      // Event listeners
