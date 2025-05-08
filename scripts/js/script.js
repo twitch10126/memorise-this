@@ -20,6 +20,7 @@ $(document).ready(function () {
         $(".start").text("Score:").css("font-size", "2em","width", "90%");
         $("#score").removeClass("hidden");
         console.log("Game has started");
+        nextColor();
     };
 
 
