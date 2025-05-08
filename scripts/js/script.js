@@ -9,7 +9,11 @@ $(document).ready(function () {
         buttons: ["red", "blue", "green", "purple"],
     };
 
+    // start game function 
     function startGame() {
+        game.round = 1;
+        gameSequence = [];
+        userSequence = [];
         console.log("Game has started");
     };
 
