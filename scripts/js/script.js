@@ -38,5 +38,13 @@ $(document).ready(function () {
 
      // Event listeners
 
+     // start button event listener
      $(".start").on("click", startGame);
+
+     // colour buttons event listener for user input
+     $(".red, .blue, .green, .purple").on("click", function() {
+        const selectedColor = $(this).attr("class").split(" ")[0];
+        game.userSequence.push(selectedColor);
+        console.log("User Sequence:", game.userSequence);
+     });
 });
