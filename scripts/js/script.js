@@ -36,6 +36,10 @@ $(document).ready(function () {
         console.log("Game Sequence:", game.gameSequence);
     }
 
+    function endGame() {
+        alert("Game Over!");
+    }
+
      // Event listeners
 
      // start button event listener
