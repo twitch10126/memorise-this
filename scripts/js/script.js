@@ -52,10 +52,20 @@ $(document).ready(function () {
         game.userSequence = [];
         game.round++;
         nextColor();
-        
-    }
 
+    // flash function
+    function flash () {
+        let i = 0;
+
+        function flashSequence() {
+            if (i < game.gameSequence.length) {
+                lights(game.gameSequence[i]);
+                i++;
+                setTimeout(flashSequence, 1000);
+            }
         }
+
+        flashSequence();
     }
 
     // lights function
