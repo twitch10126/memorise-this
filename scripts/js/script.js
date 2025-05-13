@@ -42,7 +42,18 @@ $(document).ready(function () {
         const index = game.userSequence.length - 1;
         if (game.userSequence[index] !== game.gameSequence[index]) {
             endGame();
-        } else if (game.userSequence[index] !== game.gameSequence[index]) {
+        } else if (game.userSequence.length === game.gameSequence.length) {
+            nextRound();
+        }
+    }
+
+    // next round function
+    function nextRound() {
+        game.userSequence = [];
+        game.round++;
+        nextColor();
+        
+    }
 
         }
     }
