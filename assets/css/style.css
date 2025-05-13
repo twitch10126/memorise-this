@@ -41,6 +41,10 @@ h1 {
   border: 1px solid var(--highlight);
 }
 
+.light {
+  opacity: 0.5;
+}
+
 /* page header */
 header {
   background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
