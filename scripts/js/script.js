@@ -101,6 +101,7 @@ $(document).ready(function () {
     $(".red, .blue, .green, .purple").on("click", function () {
         const selectedColor = $(this).attr("class").split(" ")[0];
         game.userSequence.push(selectedColor);
+        lights(selectedColor);
         checkInput();
         console.log("User Sequence:", game.userSequence);
     });
