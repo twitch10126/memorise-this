@@ -13,10 +13,13 @@
 
 <body>
     <header>
+        <!-- reset button -->
+        <button class="reset">Reset</button>
         <h1>Memorise This</h1>
     </header>
     <main>
         <section id="game">
+
             <!-- game base outter black ring  -->
             <div class="game-outter">
                 <!-- game inner holds the coloured buttons -->
@@ -29,15 +32,18 @@
                 </div>
                 <!-- center circle holds the start button and score -->
                 <div class="center-circle">
-                    <div class="rules ">
+                    <div class="rules">
                         <i class="fa-solid fa-scroll fa-3x"></i>
                         <span class="overlay-text">Rules</span>
                     </div>
-                    <div class="start border">Start</div> <!-- before game begins set to Start, afterwards set to Score: -->
+                    <div class="start border"><span>Start</span></div>
+                    <!-- before game begins set to Start, afterwards set to Score: -->
                     <div id="score" class="hidden">5</div>
                 </div>
             </div>
+
         </section>
+
     </main>
     <footer>
         <div id="footer">
