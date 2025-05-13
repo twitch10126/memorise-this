@@ -46,6 +46,14 @@ $(document).ready(function () {
         }
     }
 
+    // lights function
+    function lights(btn) {
+        document.querySelector("." + btn).classList.add("light");
+        setTimeout(() => {
+            document.querySelector("." + btn).classList.remove("light");
+        }, 400);
+    }
+
     function endGame() {
         alert("Game Over!");
         game.round = 1;
