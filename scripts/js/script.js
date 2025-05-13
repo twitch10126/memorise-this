@@ -14,8 +14,8 @@ $(document).ready(function () {
     // start game function 
     function startGame() {
         game.round = 1;
-        gameSequence = [];
-        userSequence = [];
+        game.gameSequence = [];
+        game.userSequence = [];
         $("i").addClass("hidden");
         $(".overlay-text").addClass("hidden");
         $(".start").removeClass("border");
@@ -63,7 +63,7 @@ $(document).ready(function () {
             if (i < game.gameSequence.length) {
                 lights(game.gameSequence[i]);
                 setTimeout(() => {
-                i++;
+                    i++;
                     flashSequence();
                 }, 1000);
             }
@@ -83,8 +83,8 @@ $(document).ready(function () {
     function endGame() {
         alert("Game Over!");
         game.round = 1;
-        gameSequence = [];
-        userSequence = [];
+        game.gameSequence = [];
+        game.userSequence = [];
         $("i").removeClass("hidden");
         $(".overlay-text").removeClass("hidden");
         $(".start").addClass("border");
