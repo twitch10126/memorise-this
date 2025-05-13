@@ -38,6 +38,14 @@ $(document).ready(function () {
 
     function endGame() {
         alert("Game Over!");
+        game.round = 1;
+        gameSequence = [];
+        userSequence = [];
+        $("i").removeClass("hidden");
+        $(".overlay-text").removeClass("hidden");
+        $(".start").addClass("border");
+        $(".start").text("Start");
+        $("#score").addClass("hidden");
     }
 
      // Event listeners
