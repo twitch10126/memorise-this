@@ -51,6 +51,7 @@ $(document).ready(function () {
     function nextRound() {
         game.round++;
         game.userSequence = [];
+        $("#score").text(game.round)
         nextColor();
         setTimeout(flash, 1000);
     }
