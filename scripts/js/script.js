@@ -30,8 +30,9 @@ $(document).ready(function () {
      * then pushes the randomColor to the gameSequence array.
      */
 
-    function nextColor(){
+    function nextColor() {
         randomColor = game.colors[(Math.floor(Math.random() * 4))];
+        lights(randomColor);
         game.gameSequence.push(randomColor);
         console.log("Game Sequence:", game.gameSequence);
     }
