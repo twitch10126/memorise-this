@@ -23,6 +23,7 @@ $(document).ready(function () {
         $("#score").removeClass("hidden");
         console.log("Game has started");
         nextColor();
+        setTimeout(flash, 1000)
     };
 
     /**
@@ -32,7 +33,6 @@ $(document).ready(function () {
 
     function nextColor() {
         randomColor = game.colors[(Math.floor(Math.random() * 4))];
-        lights(randomColor);
         game.gameSequence.push(randomColor);
         console.log("Game Sequence:", game.gameSequence);
     }
@@ -49,19 +49,23 @@ $(document).ready(function () {
 
     // next round function
     function nextRound() {
-        game.userSequence = [];
         game.round++;
+        game.userSequence = [];
         nextColor();
+        setTimeout(flash, 1000);
+    }
 
     // flash function
-    function flash () {
+    function flash() {
         let i = 0;
 
         function flashSequence() {
             if (i < game.gameSequence.length) {
                 lights(game.gameSequence[i]);
+                setTimeout(() => {
                 i++;
-                setTimeout(flashSequence, 1000);
+                    flashSequence();
+                }, 1000);
             }
         }
 
