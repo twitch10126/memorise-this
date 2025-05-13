@@ -36,6 +36,16 @@ $(document).ready(function () {
         console.log("Game Sequence:", game.gameSequence);
     }
 
+    // check user input
+    function checkInput() {
+        const index = game.userSequence.length - 1;
+        if (game.userSequence[index] !== game.gameSequence[index]) {
+            endGame();
+        } else if (game.userSequence[index] !== game.gameSequence[index]) {
+
+        }
+    }
+
     function endGame() {
         alert("Game Over!");
         game.round = 1;
