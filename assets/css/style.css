@@ -7,7 +7,7 @@
   --gradient-color1: rgb(42, 19, 63);
   --gradient-color2: rgb(3, 3, 12);
   --highlight: grey;
-  --size-vw: 90vw;
+  --size-vw: 85vw;
 }
 
 /* general styles */
@@ -28,7 +28,6 @@ h1 {
     1px 1px 3px white;
   font-size: 3em;
 }
-
 
 /* classes to be used in javaScript */
 /* hides an element */
@@ -53,18 +52,33 @@ header {
 /* main section  */
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: auto;
   flex-grow: 1;
 }
 
 /* game section */
-section {
+#game {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.reset {
+  background-color: rgb(97, 13, 13);
+  color: black;
+  font-weight: bolder;
+  width: 25vw;
+  height: 4vh;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: x-large;
+  border-radius: 7px;
+  text-align: center;
+  align-self: center;
+  border: 1px solid rgb(66, 5, 5);
+}
 
 /* game object styles */
 .game-outter {
@@ -152,7 +166,7 @@ section {
   display: inline-block;
 }
 i {
-  color:blanchedalmond;
+  color: blanchedalmond;
   text-shadow: 1px 1px 10px rgb(141, 102, 17);
 }
 
@@ -165,7 +179,6 @@ i {
   color: black;
   font-weight: bold;
 }
-
 
 /* targets Start/Score: text to be altered in javaScript*/
 .start {
@@ -211,7 +224,6 @@ footer {
   text-align: right;
 }
 
-
 /* media queries */
 
 /* medium phones and (screens 425px and larger) */
@@ -224,7 +236,6 @@ footer {
   .overlay-text {
     font-size: 17px;
   }
-
 }
 
 /* tablets and (screens 768px and larger) */
@@ -234,7 +245,7 @@ footer {
     height: 70vh;
     width: 70vh;
   }
-  
+
   #score {
     max-width: 220px;
     margin-top: 10px;
@@ -251,5 +262,4 @@ footer {
   .overlay-text {
     font-size: 23px;
   }
-
 }
