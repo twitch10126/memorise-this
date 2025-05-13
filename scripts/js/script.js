@@ -19,7 +19,7 @@ $(document).ready(function () {
         $("i").addClass("hidden");
         $(".overlay-text").addClass("hidden");
         $(".start").removeClass("border");
-        $(".start").text("Score:").css("font-size", "2em","width", "90%");
+        $(".start").text("Score:").css("font-size", "2em", "width", "90%");
         $("#score").removeClass("hidden");
         console.log("Game has started");
         nextColor();
@@ -67,16 +67,30 @@ $(document).ready(function () {
         $("#score").addClass("hidden");
     }
 
-     // Event listeners
+    // Event listeners
 
-     // start button event listener
-     $(".start").on("click", startGame);
+    // start button event listener
+    $(".start").on("click", startGame);
 
-     // colour buttons event listener for user input
+    // colour buttons event listener for user input
     $(".red, .blue, .green, .purple").on("click", function () {
         const selectedColor = $(this).attr("class").split(" ")[0];
         game.userSequence.push(selectedColor);
         checkInput();
         console.log("User Sequence:", game.userSequence);
-     });
+    });
+
+    // reset button event listener
+
+    $(".reset").on("click", function () {
+        game.round = 1;
+        gameSequence = [];
+        userSequence = [];
+        $("i").removeClass("hidden");
+        $(".overlay-text").removeClass("hidden");
+        $(".start").addClass("border");
+        $(".start").text("Start");
+        $("#score").addClass("hidden");
+    })
+
 });
