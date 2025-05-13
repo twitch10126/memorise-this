@@ -64,9 +64,10 @@ $(document).ready(function () {
      $(".start").on("click", startGame);
 
      // colour buttons event listener for user input
-     $(".red, .blue, .green, .purple").on("click", function() {
+    $(".red, .blue, .green, .purple").on("click", function () {
         const selectedColor = $(this).attr("class").split(" ")[0];
         game.userSequence.push(selectedColor);
+        checkInput();
         console.log("User Sequence:", game.userSequence);
      });
 });
