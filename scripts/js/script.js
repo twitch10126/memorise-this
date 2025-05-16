@@ -15,7 +15,6 @@ $(document).ready(function () {
     function startGame() {
         let audio = new Audio(`assets/sounds/game-start.mp3`);
         audio.play();
-        setTimeout(() => {})
         game.round = 1;
         game.gameSequence = [];
         game.userSequence = [];
@@ -24,9 +23,11 @@ $(document).ready(function () {
         $(".start").removeClass("border");
         $(".start").text("Score:").css("font-size", "2em", "width", "90%");
         $("#score").removeClass("hidden");
-        console.log("Game has started");
+        $("#score").text(game.round);
+        setTimeout(() => {
         nextColor();
         setTimeout(flash, 1000)
+    }, 3500);
     };
 
     /**
@@ -97,7 +98,6 @@ $(document).ready(function () {
         $(".start").addClass("border");
         $(".start").text("Start");
         $("#score").addClass("hidden");
-        $("#score").text(game.round);
     }
 
     // Event listeners
