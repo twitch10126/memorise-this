@@ -71,10 +71,13 @@ $(document).ready(function () {
         }
 
         flashSequence();
-    }
+    };
 
     // lights function
     function lights(btn) {
+        let audio = new Audio(`assets/sounds/${btn}.mp3`);
+        audio.play();
+
         document.querySelector("." + btn).classList.add("light");
         setTimeout(() => {
             document.querySelector("." + btn).classList.remove("light");
