@@ -38,7 +38,6 @@ $(document).ready(function () {
     function nextColor() {
         randomColor = game.colors[(Math.floor(Math.random() * 4))];
         game.gameSequence.push(randomColor);
-        console.log("Game Sequence:", game.gameSequence);
     }
 
     // check user input
@@ -112,7 +111,6 @@ $(document).ready(function () {
         game.userSequence.push(selectedColor);
         lights(selectedColor);
         checkInput();
-        console.log("User Sequence:", game.userSequence);
     });
 
     // reset button event listener
