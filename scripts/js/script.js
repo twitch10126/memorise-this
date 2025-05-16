@@ -94,6 +94,7 @@ $(document).ready(function () {
         $(".start").addClass("border");
         $(".start").text("Start");
         $("#score").addClass("hidden");
+        $("#score").text(game.round);
     }
 
     // Event listeners
@@ -121,6 +122,7 @@ $(document).ready(function () {
         $(".start").addClass("border");
         $(".start").text("Start");
         $("#score").addClass("hidden");
-    })
+        $("#score").text(game.round);
+    });
 
 });
