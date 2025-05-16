@@ -13,6 +13,9 @@ $(document).ready(function () {
 
     // start game function 
     function startGame() {
+        let audio = new Audio(`assets/sounds/game-start.mp3`);
+        audio.play();
+        setTimeout(() => {})
         game.round = 1;
         game.gameSequence = [];
         game.userSequence = [];
