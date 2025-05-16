@@ -38,6 +38,8 @@ h1 {
 /* adds a border to an element*/
 .border {
   border: 1px solid var(--highlight);
+  border-radius: 5px;
+  background-color: rgb(141, 102, 17);
 }
 
 .light {
