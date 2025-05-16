@@ -120,25 +120,25 @@ main {
 }
 
 .red {
-  background-color: red;
+  background-image: linear-gradient(to bottom right, red 30%, white);
   top: -2px;
   left: -2px;
 }
 
 .blue {
-  background-color: blue;
+  background-image: linear-gradient(to bottom left, blue 30%, white);
   top: -2px;
   right: -2px;
 }
 
 .purple {
-  background-color: rgb(148, 20, 148);
+  background-image: linear-gradient(to top right, rgb(148, 20, 148) 50%, white);
   bottom: -2px;
   left: -2px;
 }
 
 .green {
-  background-color: green;
+  background-image: linear-gradient(to top left, green 50%, white) ;
   bottom: -2px;
   right: -2px;
 }
