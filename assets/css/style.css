@@ -11,6 +11,11 @@
 }
 
 /* general styles */
+
+* {
+  user-select: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
