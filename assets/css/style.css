@@ -56,6 +56,7 @@ main {
   justify-content: center;
   height: auto;
   flex-grow: 1;
+  margin-left: -5%;
 }
 
 /* game section */
@@ -241,6 +242,11 @@ footer {
 /* tablets and (screens 768px and larger) */
 
 @media screen and (min-width: 768px) {
+
+  main {
+    margin-top: -5%;
+  }
+  
   .game-outter {
     height: 70vh;
     width: 70vh;
