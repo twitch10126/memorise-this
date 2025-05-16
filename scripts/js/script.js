@@ -21,7 +21,7 @@ $(document).ready(function () {
         $("i").addClass("hidden");
         $(".overlay-text").addClass("hidden");
         $(".start").removeClass("border");
-        $(".start").text("Score:").css("font-size", "2em", "width", "90%");
+        $(".start").text("Score:");
         $("#score").removeClass("hidden");
         $("#score").text(game.round);
         setTimeout(() => {
