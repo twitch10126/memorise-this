@@ -89,7 +89,8 @@ $(document).ready(function () {
     }
 
     function endGame() {
-        alert("Game Over!");
+        let audio = new Audio(`assets/sounds/game-over.mp3`);
+        audio.play();
         game.round = 1;
         game.gameSequence = [];
         game.userSequence = [];
