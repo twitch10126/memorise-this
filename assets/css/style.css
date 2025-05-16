@@ -49,6 +49,7 @@ h1 {
 /* page header */
 header {
   background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
+  z-index: 100;
 }
 
 /* main section  */
