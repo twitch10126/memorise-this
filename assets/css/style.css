@@ -54,6 +54,9 @@ h1 {
 /* page header */
 header {
   background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
+  position: absolute;
+  text-align: center;
+  width: 100vw;
   z-index: 100;
 }
 
