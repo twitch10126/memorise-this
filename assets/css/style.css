@@ -98,6 +98,18 @@ main {
   flex-grow: 1;
 }
 
+/* rules section */
+.lg-rules {
+  margin-top: 22px;
+  margin-bottom: 50px;
+  width: 100vw;
+  height: 35px;
+  background-color: blanchedalmond;
+  padding-top: 2px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
 /* game section */
 #game {
   display: flex;
