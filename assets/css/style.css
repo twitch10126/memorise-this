@@ -7,7 +7,7 @@
   --gradient-color1: rgb(42, 19, 63);
   --gradient-color2: rgb(3, 3, 12);
   --highlight: grey;
-  --size-vw: 85vw;
+  --size-vw: 98vw;
 }
 
 /* general styles */
@@ -192,7 +192,7 @@ main {
 }
 
 .green {
-  background-image: linear-gradient(to top left, green 50%, white) ;
+  background-image: linear-gradient(to top left, green 50%, white);
   bottom: -2px;
   right: -2px;
 }
@@ -280,11 +280,16 @@ footer {
 
 /* Keyframes */
 @keyframes pulse-shadow {
-  0% { box-shadow: 0px 0px 5px rgba(250, 248, 248, 0.5); }
-  50% { box-shadow: 0px 0px 50px rgba(250, 248, 248, 0.7); }
-  100% { box-shadow: 0px 0px 70px rgba(250, 248, 248, 0); }
+  0% {
+    box-shadow: 0px 0px 5px rgba(250, 248, 248, 0.5);
+  }
+  50% {
+    box-shadow: 0px 0px 50px rgba(250, 248, 248, 0.7);
+  }
+  100% {
+    box-shadow: 0px 0px 70px rgba(250, 248, 248, 0);
+  }
 }
-
 
 /* media queries */
 
@@ -303,11 +308,10 @@ footer {
 /* tablets and (screens 768px and larger) */
 
 @media screen and (min-width: 768px) {
-
   main {
     margin-top: -5%;
   }
-  
+
   .game-outter {
     height: 70vh;
     width: 70vh;
