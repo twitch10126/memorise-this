@@ -31,7 +31,13 @@ h1 {
   font-family: "Cutive Mono", monospace;
   text-shadow: 2px 2px 15px rgb(7, 7, 247), -2px -2px 15px rgb(160, 2, 160),
     1px 1px 3px white;
-  font-size: 3em;
+
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 40%;
 }
 
 /* classes to be used in javaScript */
