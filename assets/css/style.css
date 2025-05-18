@@ -64,6 +64,13 @@ header {
   border-bottom: 1px solid grey;
 }
 
+/* table */
+.table th,
+.table td {
+  background-color: inherit;
+  color: white;
+  border: none;
+}
 
 /* main section  */
 main {
