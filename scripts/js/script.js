@@ -127,4 +127,9 @@ $(document).ready(function () {
         $("#score").text(game.round);
     });
 
+    $("#dropdownBtn").on("click", function() {
+        $(".dropdownRow").toggleClass("hidden");
+    });
+    
+
 });
