@@ -57,6 +57,14 @@ header {
   z-index: 100;
 }
 
+/* leaderboard */
+#dropdownBtn {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+
 /* main section  */
 main {
   display: flex;
