@@ -128,6 +128,10 @@ main {
   padding-top: 15px;
 }
 
+li {
+  padding-right: 20px;
+  text-align: left;
+}
 
 /* game section */
 #game {
