@@ -178,8 +178,14 @@ $(document).ready(function () {
     });
 
     $(".lg-rules").on("click", function () {
-        $(".rules").toggleClass("hidden");
-        $("ol").toggleClass("hidden");
+        if($(".rules").hasClass("hidden")){
+            $(".rules").removeClass("hidden").addClass("visible");
+            $("ol").removeClass("hidden")
+        }
+        else if($(".rules").hasClass("visible")){
+            $(".rules").removeClass("visible").addClass("hidden");
+            $("ol").addClass("hidden")
+        }
     });
 
 });
