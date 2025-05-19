@@ -166,6 +166,8 @@ $(document).ready(function () {
         $(".start").text("Start");
         $("#score").addClass("hidden");
         $("#score").text(game.round);
+        $(".lg-rules").removeClass("hidden");
+        $(".lg-rules").addClass("visible");
     });
 
     $("#dropdownBtn").on("click", function() {
