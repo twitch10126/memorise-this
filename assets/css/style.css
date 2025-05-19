@@ -101,6 +101,13 @@ main {
 }
 
 /* rules section */
+#rules {
+  width: 100vw;
+  position: fixed;
+  z-index: 90;
+  font-size: large;
+}
+
 .lg-rules {
   margin-top: 22px;
   margin-bottom: 50px;
