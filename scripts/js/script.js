@@ -156,7 +156,7 @@ $(document).ready(function () {
 
     // reset button event listener
 
-    $(".reset").on("click", function () {
+    $(".restart").on("click", function () {
         game.round = 1;
         gameSequence = [];
         userSequence = [];
