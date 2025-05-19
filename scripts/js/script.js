@@ -32,6 +32,27 @@ $(document).ready(function () {
     }, 3500);
     };
 
+    // start css
+    function startCss(){
+        if (window.innerWidth < 768) {
+            $(".game-outter").css("top", "302px");
+            $("#restart").css("margin-top", "140%");
+
+        }
+        else if (window.innerWidth >= 1440) {
+            $(".game-outter").css("top", "20%");
+            $("#restart").css("margin-top", "50%");
+        }
+        else if (window.innerWidth >= 1024) {
+            $(".game-outter").css("top", "20%");
+            $("#restart").css("margin-top", "49%");
+        }
+        else if (window.innerWidth >= 768) {
+            $(".game-outter").css("top", "160px");
+            $("#restart").css("margin-top", "72%");
+        }
+    };
+
     /**
      * The nextColor function generates a random color from the buttons array,
      * then pushes the randomColor to the gameSequence array.
