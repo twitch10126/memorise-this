@@ -25,6 +25,7 @@ $(document).ready(function () {
         $("#score").removeClass("hidden");
         $("#score").text(game.round);
         $(".lg-rules").addClass("hidden");
+        $("#restart").removeClass("hidden");
         setTimeout(() => {
         nextColor();
         setTimeout(flash, 1000)
