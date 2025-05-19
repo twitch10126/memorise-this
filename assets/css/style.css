@@ -300,13 +300,18 @@ footer {
 /* tablets and (screens 768px and larger) */
 
 @media screen and (min-width: 768px) {
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
   /* rules section */
   #rules {
     font-size: x-large;
   }
 
   .rules {
-    top: -207px;
+    top: -208px;
   }
 
   li {
@@ -343,14 +348,21 @@ footer {
 /* laptops and (screens 1020px and larger) */
 
 @media screen and (min-width: 1020px) {
-  .rules {
-    top: -201px;
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
   }
 
   .start {
-  margin-bottom: 10px;
+  height: 45px;
   padding: 0;
-  font-size: smaller;
+  font-size: 25px;
+}
+
+.rules {
+    top: -345px;
+    height: 300px;
 }
 }
 
