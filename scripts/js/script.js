@@ -34,7 +34,7 @@ $(document).ready(function () {
     };
 
     // start css
-    function startCss(){
+    function startCss() {
         if (window.innerWidth < 768) {
             $(".game-outter").css("top", "302px");
             $("#restart").css("margin-top", "140%");
@@ -53,6 +53,22 @@ $(document).ready(function () {
             $("#restart").css("margin-top", "72%");
         }
     };
+
+    // endGameCss
+    function endGameCss() {
+        if (window.innerWidth < 768) {
+
+        }
+        else if (window.innerWidth >= 1440) {
+
+        }
+        else if (window.innerWidth >= 1024) {
+            $(".game-outter").css("top", "233.03px");
+        }
+        else if (window.innerWidth >= 768) {
+            $(".game-outter").css("top", "217.672px");
+        }
+    }
 
     /**
      * The nextColor function generates a random color from the buttons array,
