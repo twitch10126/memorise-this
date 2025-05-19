@@ -8,7 +8,7 @@ $(document).ready(function () {
         round: 1,
         gameSequence: [],
         userSequence: [],
-        gameover: false,
+        speed: 1000,
         colors: ["red", "blue", "green", "purple"],
     };
 
