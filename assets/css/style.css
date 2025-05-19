@@ -119,6 +119,16 @@ main {
   font-size: larger;
 }
 
+.rules {
+  position: absolute;
+  top: -227px;
+  width: 100vw;
+  height: fit-content;
+  background-color: blanchedalmond;
+  padding-top: 15px;
+}
+
+
 /* game section */
 #game {
   display: flex;
