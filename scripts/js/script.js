@@ -173,7 +173,7 @@ $(document).ready(function () {
             game.speed -= 100; // Decrease delay by 100ms every 5 rounds
         }
         // Begin flashing sequence with a short delay
-        setTimeout(flash, 1000);
+        setTimeout(flash, game.speed);
     }
 
     /** 
@@ -199,7 +199,7 @@ $(document).ready(function () {
                     i++;
                     // call flash sequence after 1000 millisecond delay 
                     flashSequence();
-                }, 1000);
+                }, game.speed);
             }
         }
 
