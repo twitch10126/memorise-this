@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     // game object
     let game = {
+        active: false,
         round: 1,
         gameSequence: [],
         userSequence: [],
@@ -20,6 +21,10 @@ $(document).ready(function () {
      */
 
     function startGame() {
+        if(game.active === true) {
+            return;
+        }
+        game.active = true;
         // play game start audio 
         let audio = new Audio(`assets/sounds/game-start.mp3`);
         audio.play();
@@ -230,6 +235,7 @@ $(document).ready(function () {
      */
 
     function endGame() {
+        game.active = false;
         // play game over sound
         let audio = new Audio(`assets/sounds/game-over.mp3`);
         audio.play();
@@ -275,6 +281,7 @@ $(document).ready(function () {
      */
 
     $(".restart").on("click", function () {
+        game.active = false;
         // Reset game variables
         game.round = 1;
         gameSequence = [];
