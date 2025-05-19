@@ -138,6 +138,7 @@ $(document).ready(function () {
         $(".start").addClass("border");
         $(".start").text("Start");
         $("#score").addClass("hidden");
+        $("#restart").addClass("hidden");
     }
 
     // Event listeners
