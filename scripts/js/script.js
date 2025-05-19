@@ -70,7 +70,7 @@ $(document).ready(function () {
                 "margin-top": "28px",
                 "margin-bottom": "-14px",
                 "padding": "0"
-            }); 
+            });
             $(".start").css("margin-top", "43px");
         }
         // screens greater than or equal to 1024px
@@ -113,7 +113,6 @@ $(document).ready(function () {
         else if (window.innerWidth >= 1024) {
             $(".game-outter").css("top", "233.03px");
             $(".game-outter").css("top", "302px");
-            
         }
         // screens greater than or equal to 768px
         else if (window.innerWidth >= 768) {
@@ -169,6 +168,10 @@ $(document).ready(function () {
         $("#score").text(game.round);
         // Generate next color in sequence
         nextColor();
+        // Reduce speed every 5 rounds (minimum limit to prevent it from becoming too fast)
+        if (game.round % 5 === 0 && game.speed > 400) {
+            game.speed -= 100; // Decrease delay by 100ms every 5 rounds
+        }
         // Begin flashing sequence with a short delay
         setTimeout(flash, 1000);
     }
