@@ -168,6 +168,7 @@ $(document).ready(function () {
         $("#score").text(game.round);
         $(".lg-rules").removeClass("hidden");
         $(".lg-rules").addClass("visible");
+        $("#restart").addClass("hidden");
     });
 
     $("#dropdownBtn").on("click", function() {
