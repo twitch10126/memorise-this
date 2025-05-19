@@ -304,6 +304,20 @@ footer {
 /* tablets and (screens 768px and larger) */
 
 @media screen and (min-width: 768px) {
+  /* rules section */
+  #rules {
+    font-size: x-large;
+  }
+
+  .rules {
+    top: -207px;
+  }
+
+  li {
+    padding-right: 30px;
+    padding-bottom: 5px;
+  }
+
   main {
     margin-top: -5%;
   }
