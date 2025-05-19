@@ -169,6 +169,7 @@ $(document).ready(function () {
         $(".lg-rules").removeClass("hidden");
         $(".lg-rules").addClass("visible");
         $("#restart").addClass("hidden");
+        endGameCss();
     });
 
     $("#dropdownBtn").on("click", function() {
