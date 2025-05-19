@@ -358,5 +358,11 @@ footer {
 }
 }
 
+/* dektops and (screens 1440px and larger) */
+
+@media screen and (min-width: 1440px) {
+  .rules {
+    top: -335px;
+    font-size: 27px;
   }
 }
