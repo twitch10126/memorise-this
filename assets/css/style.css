@@ -45,8 +45,6 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 20%;
-  margin-bottom: 40%;
 }
 
 /* classes to be used in javaScript */
