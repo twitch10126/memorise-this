@@ -28,9 +28,9 @@ $(document).ready(function () {
         $("#restart").removeClass("hidden");
         startCss()
         setTimeout(() => {
-        nextColor();
-        setTimeout(flash, 1000)
-    }, 3500);
+            nextColor();
+            setTimeout(flash, 1000)
+        }, 3500);
     };
 
     // start css
@@ -172,9 +172,14 @@ $(document).ready(function () {
         endGameCss();
     });
 
-    $("#dropdownBtn").on("click", function() {
+    // dropdown event listener
+    $("#dropdownBtn").on("click", function () {
         $(".dropdownRow").toggleClass("hidden");
     });
-    
+
+    $(".lg-rules").on("click", function () {
+        $(".rules").toggleClass("hidden");
+        $("ol").toggleClass("hidden");
+    });
 
 });
