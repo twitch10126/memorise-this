@@ -344,9 +344,19 @@ footer {
 }
 }
 
+/* laptops and (screens 1020px and larger) */
+
+@media screen and (min-width: 1020px) {
+  .rules {
+    top: -201px;
   }
 
-  .overlay-text {
-    font-size: 23px;
+  .start {
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: smaller;
+}
+}
+
   }
 }
