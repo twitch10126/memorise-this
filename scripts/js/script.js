@@ -13,6 +13,44 @@ $(document).ready(function () {
         colors: ["red", "blue", "green", "purple"],
     };
 
+    // leaderboard data
+    let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
+
+    function updateLeaderboard() {
+        // Sort by score (highest first)
+        leaderboard.sort((a, b) => b.score - a.score);
+
+        // Clear table and dynamically add new rows
+        $("#dropdown-menu").empty();
+        leaderboard.forEach((player, index) => {
+            let rowClass = index === 0 ? "" : "dropdownRow hidden"; // Hide all but first row
+            $("#dropdown-menu").append(`
+                <tr class="${rowClass}">
+                    <td>${player.name}</td>
+                    <td>${player.score}</td>
+                </tr>
+            `);
+        });
+
+        //  Append reset button after leaderboard rows
+        $("#dropdown-menu").append(`
+        <tr class="dropdownRow hidden">
+            <td colspan="2">
+                <button class="reset">Reset</button>
+            </td>
+        </tr>
+        `);
+
+        // Save updated leaderboard to localStorage
+        localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+        console.log("Dropdown Menu HTML:", $("#dropdown-menu").html());
+
+    }
+
+    // Initialize leaderboard on page load
+    updateLeaderboard();
+
+
     /**
      * The StartGame function is called when the start button is clicked.
      * This function resets all values to the original starting value,
