@@ -310,7 +310,6 @@ footer {
 /* tablets and (screens 768px and larger) */
 
 @media screen and (min-width: 768px) {
-
   h3 {
     font-size: 25px;
     margin-bottom: 25px;
@@ -349,10 +348,10 @@ footer {
   }
 
   .start {
-  width: 55%;
-  margin-top: 10px;
-  font-size: smaller;
-}
+    width: 55%;
+    margin-top: 10px;
+    font-size: smaller;
+  }
 }
 
 /* laptops and (screens 1020px and larger) */
