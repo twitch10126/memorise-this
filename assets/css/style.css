@@ -372,10 +372,12 @@ footer {
     font-size: 25px;
   }
 
-.rules {
-    top: -345px;
-    height: 300px;
-}
+  .rules {
+    top: -355px;
+    padding-top: 70px;
+    padding-bottom: 46px;
+    height: 400px;
+  }
 }
 
 /* dektops and (screens 1440px and larger) */
