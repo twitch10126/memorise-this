@@ -367,10 +367,10 @@ footer {
   }
 
   .start {
-  height: 45px;
-  padding: 0;
-  font-size: 25px;
-}
+    height: 45px;
+    padding: 0;
+    font-size: 25px;
+  }
 
 .rules {
     top: -345px;
