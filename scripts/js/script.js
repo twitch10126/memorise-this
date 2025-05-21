@@ -273,10 +273,12 @@ $(document).ready(function () {
      */
 
     function endGame() {
-        game.active = false;
+        game.active = false
+        let finalScore = game.round - 1;
         // play game over sound
         let audio = new Audio(`assets/sounds/game-over.mp3`);
         audio.play();
+        $("#saveModal").modal("show");
         // reset game values
         game.round = 1;
         game.gameSequence = [];
@@ -285,6 +287,11 @@ $(document).ready(function () {
         $(".start").addClass("border").text("Start");
         $("#score").addClass("hidden");
         $("#restart").addClass("hidden");
+        endGameCss();
+        // Automatically open the modal when the game ends
+        $(".score").text(`Your Score: ${finalScore}`);
+
+
     }
 
     // Event listeners
