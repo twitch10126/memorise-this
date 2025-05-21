@@ -387,16 +387,17 @@ footer {
     font-size: 22px;
   }
 
-  h3, h5 {
+  h3,
+  h5 {
     font-size: 35px;
     margin-bottom: 25px;
   }
 
   .start {
-  height: 45px;
-  padding: 0;
-  font-size: 25px;
-}
+    height: 45px;
+    padding: 0;
+    font-size: 25px;
+  }
 
   .lg-rules {
     top: 216px;
@@ -408,7 +409,7 @@ footer {
     top: -303px;
     height: 300px;
   }
-  
+
   li {
     padding: 10px;
     padding-top: 20px;
