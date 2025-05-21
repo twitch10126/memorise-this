@@ -65,6 +65,29 @@
 
     </header>
     <main>
+        <!-- Bootstrap modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="saveModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- modal header -->
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="saveModalLabel">Save Score?</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!-- modal body -->
+                    <div class="modal-body">
+                        <input type="text" id="playerName" placeholder="Enter Name">
+                        <P class="score"></P>
+                    </div>
+                    <!-- modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" id="saveScore" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section id="rules">
             <div class="lg-rules">Rules</div>
             <div class="rules hidden">
