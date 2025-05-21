@@ -367,4 +367,26 @@ $(document).ready(function () {
         }
     });
 
+    $(document).on("click", ".reset", function () {
+        leaderboard = [];
+        localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+        updateLeaderboard();
+    });
+
+    $("#saveScore").on("click", function () {
+        const playerName = $("#playerName").val().trim();
+        const scoreText = $(".score").text(); // e.g., "Your Score: 7"
+        const score = parseInt(scoreText.replace(/\D/g, ""), 10); // Extract number
+
+        if (playerName && !isNaN(score)) {
+            leaderboard.push({ name: playerName, score: score });
+            localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+            updateLeaderboard();
+            $("#saveModal").modal("hide");
+            $("#playerName").val("");
+        } else {
+            alert("Please enter a valid name.");
+        }
+    });
+
 });
