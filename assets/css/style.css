@@ -90,6 +90,16 @@ header {
   border: none;
 }
 
+.reset {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(133, 24, 24);
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+}
 /* main section  */
 main {
   display: flex;
