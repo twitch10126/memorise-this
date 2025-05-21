@@ -59,7 +59,7 @@ $(document).ready(function () {
      */
 
     function startGame() {
-        if(game.active === true) {
+        if (game.active === true) {
             return;
         }
         game.active = true;
@@ -70,7 +70,7 @@ $(document).ready(function () {
         game.round = 1;
         game.gameSequence = [];
         game.userSequence = [];
-        $(".start").removeClass("border").text("Score:");
+        $(".start").removeClass("border").text("Round:");
         $("#score").removeClass("hidden").text(game.round);
         $(".lg-rules").addClass("hidden");
         $("#restart").removeClass("hidden");
