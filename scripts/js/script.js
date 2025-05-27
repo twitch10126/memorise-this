@@ -15,6 +15,7 @@ $(document).ready(function () {
         colors: ["red", "blue", "green", "purple"],
     };
 
+    let sounds = [];
 
     // leaderboard data
     let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [{ name: "Player", score: 0 }];
