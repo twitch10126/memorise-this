@@ -159,7 +159,7 @@ $(document).ready(function () {
         function flashSequence() {
 
             // if i is less than game sequence length
-            if (i < game.gameSequence.length && !game.restart) {
+            if (i < game.gameSequence.length && !game.restart && game.active) {
                 // call lights to light the game sequence button at current index
                 lights(game.gameSequence[i]);
                 // timeout to stop buttons flashing too frequntly 
