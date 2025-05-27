@@ -65,6 +65,11 @@ section {
   opacity: 0.5;
 }
 
+/* pointer events */
+.pointer {
+  pointer-events: none;
+}
+
 /* page header */
 header {
   background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
