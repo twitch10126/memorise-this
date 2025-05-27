@@ -6,6 +6,7 @@ $(document).ready(function () {
     // game object
     let game = {
         active: false,
+        restart: false,
         round: 1,
         gameSequence: [],
         userSequence: [],
@@ -63,6 +64,7 @@ $(document).ready(function () {
             return;
         }
         game.active = true;
+        game.restart = false;
         // play game start audio 
         let audio = new Audio(`assets/sounds/game-start.mp3`);
         audio.play();
@@ -233,7 +235,7 @@ $(document).ready(function () {
         function flashSequence() {
 
             // if i is less than game sequence length
-            if (i < game.gameSequence.length) {
+            if (i < game.gameSequence.length && !game.restart) {
                 // call lights to light the game sequence button at current index
                 lights(game.gameSequence[i]);
                 // timeout to stop buttons flashing too frequntly 
