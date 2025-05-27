@@ -193,7 +193,7 @@ $(document).ready(function () {
      */
 
     function endGame() {
-        game.active = false
+        game.active = false;
         let finalScore = game.round - 1;
         // play game over sound
         let audio = new Audio(`assets/sounds/game-over.mp3`);
@@ -257,8 +257,7 @@ $(document).ready(function () {
         $("#score").addClass("hidden").text(game.round);
         $(".lg-rules").removeClass("hidden").addClass("visible");
         $("#restart").addClass("hidden");
-        // Apply end-game CSS
-        endGameCss();
+        $(".game-outter").css("top", "285px")
     });
 
     /** 
@@ -279,12 +278,12 @@ $(document).ready(function () {
         // if rules section is hidden, make it visible
         if ($(".rules").hasClass("hidden")) {
             $(".rules").removeClass("hidden").addClass("visible");
-            $("ol").removeClass("hidden")
+            $("ol").removeClass("hidden");
         }
         // else, hide the rules section
         else if ($(".rules").hasClass("visible")) {
             $(".rules").removeClass("visible").addClass("hidden");
-            $("ol").addClass("hidden")
+            $("ol").addClass("hidden");
         }
     });
 
@@ -296,7 +295,7 @@ $(document).ready(function () {
 
     $("#saveScore").on("click", function () {
         const playerName = $("#playerName").val().trim();
-        const scoreText = $(".score").text(); // e.g., "Your Score: 7"
+        const scoreText = $(".score").text();
         const score = parseInt(scoreText.replace(/\D/g, ""), 10); // Extract number
 
         if (playerName && !isNaN(score)) {
