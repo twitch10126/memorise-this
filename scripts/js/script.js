@@ -15,7 +15,7 @@ $(document).ready(function () {
     };
 
     // leaderboard data
-    let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
+    let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [{ name: "Player", score: 0 }];
 
     function updateLeaderboard() {
         // Sort by score (highest first)
@@ -288,7 +288,7 @@ $(document).ready(function () {
     });
 
     $(document).on("click", ".reset", function () {
-        leaderboard = [];
+        leaderboard = [{ name: "Player", score: 0 }];
         localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
         updateLeaderboard();
     });
@@ -299,7 +299,12 @@ $(document).ready(function () {
         const score = parseInt(scoreText.replace(/\D/g, ""), 10); // Extract number
 
         if (playerName && !isNaN(score)) {
-            leaderboard.push({ name: playerName, score: score });
+            if (leaderboard.length > 0 && leaderboard[0].name === "Player") {
+                leaderboard[0] = { name: playerName, score: score };
+            } else {
+                leaderboard.push({ name: playerName, score: score });
+            }
+
             localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
             updateLeaderboard();
             $("#saveModal").modal("hide");
