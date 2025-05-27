@@ -80,6 +80,7 @@ $(document).ready(function () {
         $(".lg-rules").addClass("hidden");
         $("#restart").removeClass("hidden");
         $(".game-outter").css("top", "220px");
+        $(".bttn").removeClass("pointer");
         // Sequence starts after 3500 millisecond delay
         setTimeout(() => {
             // call nextColor
