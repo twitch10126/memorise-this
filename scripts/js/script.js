@@ -79,9 +79,7 @@ $(document).ready(function () {
         $("#score").removeClass("hidden").text(game.round);
         $(".lg-rules").addClass("hidden");
         $("#restart").removeClass("hidden");
-
-        // call startCss
-        startCss()
+        $(".game-outter").css("top", "220px");
         // Sequence starts after 3500 millisecond delay
         setTimeout(() => {
             // call nextColor
