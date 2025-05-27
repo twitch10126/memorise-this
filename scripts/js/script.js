@@ -21,6 +21,9 @@ $(document).ready(function () {
         // Sort by score (highest first)
         leaderboard.sort((a, b) => b.score - a.score);
 
+        // Trim the leaderboard to only store the top 10
+        leaderboard = leaderboard.slice(0, 10);
+
         // Clear table and dynamically add new rows
         $("#dropdown-menu").empty();
         leaderboard.forEach((player, index) => {
@@ -329,6 +332,7 @@ $(document).ready(function () {
 
     $(".restart").on("click", function () {
         game.active = false;
+        game.restart = true;
         // Reset game variables
         game.round = 1;
         gameSequence = [];
