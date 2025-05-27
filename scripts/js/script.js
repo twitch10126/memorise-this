@@ -73,7 +73,9 @@ $(document).ready(function () {
         game.restart = false;
         // play game start audio 
         let audio = new Audio(`assets/sounds/game-start.mp3`);
+        audio.muted = game.isMuted;
         audio.play();
+        sounds.push(audio);
         // reset game to initial values
         game.round = 1;
         game.gameSequence = [];
@@ -182,7 +184,9 @@ $(document).ready(function () {
     function lights(btn) {
         // play the sound effect for the button clicked
         let audio = new Audio(`assets/sounds/${btn}.mp3`);
+        audio.muted = game.isMuted;
         audio.play();
+        sounds.push(audio);
         // add a highlight effect to the button
         document.querySelector("." + btn).classList.add("light");
         // remove the highlight effect after 400 milliseconds
@@ -201,7 +205,9 @@ $(document).ready(function () {
         let finalScore = game.round - 1;
         // play game over sound
         let audio = new Audio(`assets/sounds/game-over.mp3`);
+        audio.muted = game.isMuted;
         audio.play();
+        sounds.push(audio);
         $("#saveModal").modal("show");
         // reset game values
         game.round = 1;
