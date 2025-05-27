@@ -220,6 +220,19 @@ $(document).ready(function () {
 
     // Event listeners
 
+    $("#muteToggle").on("click", function () {
+        game.isMuted = !game.isMuted;
+
+        // Mute/unmute all tracked sounds
+        sounds.forEach(sound => {
+            sound.muted = game.isMuted;
+        });
+
+        // Toggle icon based on mute state
+        $(this).find("i").toggleClass("fa-volume-xmark fa-volume-high");
+    });
+
+
     /** 
      * Start button event listener 
      * Calls startGame function when the start button is clicked.
