@@ -7,12 +7,14 @@ $(document).ready(function () {
     let game = {
         active: false,
         restart: false,
+        isMuted: true,
         round: 1,
         gameSequence: [],
         userSequence: [],
         speed: 1000,
         colors: ["red", "blue", "green", "purple"],
     };
+
 
     // leaderboard data
     let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [{ name: "Player", score: 0 }];
