@@ -53,13 +53,14 @@ section {
   display: none;
 }
 
-/* adds a border to an element*/
+/* adds a border to an element */
 .border {
   border: 1px solid var(--highlight);
   border-radius: 5px;
   background-color: rgb(141, 102, 17);
 }
 
+/* dims color for flash effect */
 .light {
   opacity: 0.5;
 }
@@ -69,7 +70,7 @@ header {
   background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
   position: absolute;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   z-index: 100;
 }
@@ -116,6 +117,7 @@ main {
   position: fixed;
   z-index: 90;
   font-size: large;
+  max-height: 450px;
 }
 
 .lg-rules {
@@ -131,7 +133,7 @@ main {
 
 .rules {
   position: absolute;
-  top: -227px;
+  top: -207px;
   width: 100vw;
   height: fit-content;
   background-color: blanchedalmond;
@@ -162,6 +164,8 @@ li {
   text-align: center;
   align-self: center;
   border: 1px outset whitesmoke;
+  position: relative;
+  top: 235px;
 }
 
 /* game object styles */
@@ -320,7 +324,7 @@ footer {
   }
 
   .rules {
-    top: -208px;
+    top: -155px;
   }
 
   li {
@@ -352,6 +356,10 @@ footer {
     margin-top: 10px;
     font-size: smaller;
   }
+
+  .restart {
+    top: 287px;
+  }
 }
 
 /* laptops and (screens 1020px and larger) */
@@ -373,10 +381,13 @@ footer {
   }
 
   .rules {
-    top: -355px;
-    padding-top: 70px;
-    padding-bottom: 46px;
-    height: 400px;
+    top: -114px;
+    padding-top: 72px;
+    height: 365px;
+  }
+
+  .restart {
+    top: 287px;
   }
 }
 
@@ -406,12 +417,21 @@ footer {
   }
 
   .rules {
-    top: -303px;
-    height: 300px;
+    top: -5px;
+    max-height: 450px;
+    padding-top: 36px;
   }
 
   li {
     padding: 10px;
     padding-top: 20px;
+  }
+
+  .game-outter {
+    top: 285px;
+  }
+  
+  .restart {
+    top: 260px;
   }
 }
