@@ -208,7 +208,7 @@ $(document).ready(function () {
         $(".start").addClass("border").text("Start");
         $("#score").addClass("hidden");
         $("#restart").addClass("hidden");
-        endGameCss();
+        $(".lg-rules").removeClass("hidden");
         // Automatically open the modal when the game ends
         $(".score").text(`Your Score: ${finalScore}`);
 
