@@ -77,8 +77,8 @@ section {
   left: 0;
 }
 
-/* pointer events */
-.pointer {
+/* disable pointer events */
+.disable {
   pointer-events: none;
 }
 
