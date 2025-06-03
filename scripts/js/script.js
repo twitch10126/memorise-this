@@ -163,12 +163,8 @@ $(document).ready(function () {
                 // call lights to light the game sequence button at current index
                 lights(game.gameSequence[i]);
                 // timeout to stop buttons flashing too frequntly 
-                setTimeout(() => {
-                    // increment i by 1
-                    i++;
-                    // call flash sequence after 1000 millisecond delay 
-                    flashSequence();
-                }, game.speed);
+                i++;
+                setTimeout(flashSequence, game.speed);
             }
         }
 
