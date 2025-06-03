@@ -51,6 +51,16 @@ h3 {
   padding-top: 15%;
 }
 
+.social {
+  font-size: 2.5em;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 section {
   display: flex;
   justify-content: center;
