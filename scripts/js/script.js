@@ -343,4 +343,17 @@ $(document).ready(function () {
         }
     });
 
+    $("a").hover(
+        // mouseenter
+        function () {
+            $(this).toggleClass("gradient-text-git gradient-text-link");
+            $(this).siblings("a").toggleClass("gradient-text-git gradient-text-link");
+        },
+        // mouseleave
+        function () {
+            $(this).toggleClass("gradient-text-git gradient-text-link");
+            $(this).siblings("a").toggleClass("gradient-text-git gradient-text-link");
+        }
+    );
+
 });
