@@ -52,8 +52,6 @@ section {
   text-align: center;
 }
 
-
-
 /* classes to be used in javaScript */
 /* hides an element */
 .hidden {
@@ -151,19 +149,23 @@ main {
 
 /* rules section */
 #rules {
-  display: block;
+  position: fixed;
   width: 100vw;
   position: fixed;
   z-index: 90;
   font-size: large;
   max-height: 450px;
+  top: 152px;
+}
+
+.lg-rules,
+.rules {
+  position: relative;
+  width: 100%;
 }
 
 .lg-rules {
-  width: 100vw;
   background-color: blanchedalmond;
-  position: fixed;
-  top: 152px;
   height: 50px;
   padding-top: 5px;
   font-weight: bolder;
@@ -172,11 +174,12 @@ main {
 
 .rules {
   position: absolute;
-  top: -68px;
   width: 100vw;
   height: fit-content;
   background-color: blanchedalmond;
   padding-top: 15px;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 li {
@@ -199,7 +202,6 @@ li {
   height: 70%;
   width: 100%;
   margin-bottom: -30%;
-  
 }
 
 /* game object styles */
@@ -351,21 +353,27 @@ footer {
     margin-bottom: 25px;
   }
   h5 {
-    font-size: 26px;
+    font-size: 19px;
   }
   /* rules section */
+  #rules {
+    max-height: 450px;
+    top: 153px;
+    
+  }
+
   .lg-rules {
-    top: 171px;
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .rules {
-    top: -59px;
     font-size: 21px;
+    padding-left:30px;
+    padding-right:30px;
   }
 
-   table th {
-    font-size: 25px;
+  table th {
+    font-size: 17px;
   }
 
   table td {
@@ -408,24 +416,24 @@ footer {
 
 @media screen and (min-width: 1020px) {
   h3 {
-    font-size: 30px;
+    font-size: 21px;
     margin-bottom: 25px;
   }
 
-  header {
-    font-size: 18px;
+  h5 {
+ font-size: 23px;
   }
 
-   table th {
-    font-size: 35px;
+  table th {
+    font-size: 20px;
   }
 
   table td {
-    font-size: 30px;
+    font-size: 17px;
   }
 
   main {
-    margin-top: 26%;
+    margin-top: 22%;
   }
 
   /* game section */
@@ -440,9 +448,9 @@ footer {
   }
 
   .start {
-    height: 45px;
+    height: fit-content;
     padding: 0;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #score {
@@ -451,16 +459,21 @@ footer {
     font-size: 20px;
   }
 
+  #rules {
+    max-height: 450px;
+    top: 166px;
+  }
   .lg-rules {
     height: 65px;
-    font-size: 35px;
-    top: 230px;
+    font-size: 30px;
   }
 
   .rules {
-    top: -23px;
     padding-top: 36px;
-    height: 331px;
+    height: 251px;
+    font-size: 22px;
+    padding-left:35px;
+    padding-right:35px;
   }
 
   .restart {
@@ -476,42 +489,44 @@ footer {
   }
 
   table th {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   table td {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   main {
-    margin-top: 23%;
+    height: 69vh;
+    margin-top: 14%;
   }
 
-  h3,
+  h3 {
+    font-size: 20px;
+  }
+
   h5 {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 25px;
   }
 
   .start {
-    height: 45px;
-    padding: 0;
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  #rules {
+    top: 195px;
   }
 
   .lg-rules {
-    top: 247px;
-    height: 90px;
-    font-size: 50px;
+    height: 50px;
+    font-size: 35px;
   }
 
   .rules {
-    top: 5px;
-    height: 520px;
-    padding-top: 44px;
-    font-size: 34px;
-    padding-left: 26px;
-    padding-right: 10px;
+    height: 420px;
+    font-size: 26px;
+    padding-left: 50px;
   }
 
   li {
@@ -528,10 +543,14 @@ footer {
   .game-outter {
     height: var(--size-vh);
     width: var(--size-vh);
-    top: 403px;
+    top: 260px;
   }
 
   .restart {
-    top: 260px;
+    margin-top: 62px;
+  }
+
+  footer {
+    height: 30px;
   }
 }
