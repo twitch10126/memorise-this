@@ -282,11 +282,13 @@ $(document).ready(function () {
         gameSequence = [];
         userSequence = [];
         // Reset elements to restart
-        $(".start").addClass("border").text("Start");
+        $(".start").addClass("border").text("Start").css(
+            {"margin-top": "initial"}
+            );
         $("#score").addClass("hidden").text(game.round);
         $(".lg-rules").removeClass("hidden").addClass("visible");
         $("#restart").addClass("hidden");
-        $(".game-outter").css("top", "285px")
+        $(".bttn").addClass("disable");
     });
 
     /** 
