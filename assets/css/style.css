@@ -325,6 +325,7 @@ li {
   font-size: 1em;
 }
 
+
 /* targets score box */
 #score {
   width: fit-content;
@@ -343,9 +344,8 @@ footer {
   background: linear-gradient(var(--gradient-color2), var(--gradient-color1));
   padding: 10px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  height: 10%;
+  height: 12%;
 }
 
 /* copyrite styles */
