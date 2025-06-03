@@ -476,6 +476,18 @@ footer {
     font-size: 22px;
   }
 
+  table th {
+    font-size: 35px;
+  }
+
+  table td {
+    font-size: 30px;
+  }
+
+  main {
+    margin-top: 23%;
+  }
+
   h3,
   h5 {
     font-size: 35px;
@@ -489,15 +501,18 @@ footer {
   }
 
   .lg-rules {
-    top: 216px;
-    font-size: 30px;
-    height: 60px;
+    top: 247px;
+    height: 90px;
+    font-size: 50px;
   }
 
   .rules {
-    top: -5px;
-    max-height: 450px;
-    padding-top: 36px;
+    top: 5px;
+    height: 520px;
+    padding-top: 44px;
+    font-size: 34px;
+    padding-left: 26px;
+    padding-right: 10px;
   }
 
   li {
@@ -505,10 +520,18 @@ footer {
     padding-top: 20px;
   }
 
-  .game-outter {
-    top: 285px;
+  /* game section */
+  #game {
+    margin-top: 17%;
   }
-  
+
+  /* game object styles */
+  .game-outter {
+    height: var(--size-vh);
+    width: var(--size-vh);
+    top: 403px;
+  }
+
   .restart {
     top: 260px;
   }
