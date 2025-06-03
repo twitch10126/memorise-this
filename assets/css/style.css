@@ -36,6 +36,11 @@ h5 {
   padding-top: 10%;
 }
 
+h5:hover {
+  color: grey;
+  animation: text-pulse 3s ease-in-out infinite;
+}
+
 h3 {
   color: var(--text);
   text-align: center;
