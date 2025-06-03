@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
-  height: 100vh;
+  height: 100%;
   margin: 0;
   scroll-behavior: none;
 }
@@ -52,6 +52,8 @@ section {
   justify-content: center;
   text-align: center;
 }
+
+
 
 /* classes to be used in javaScript */
 /* hides an element */
