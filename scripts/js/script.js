@@ -80,11 +80,13 @@ $(document).ready(function () {
         game.round = 1;
         game.gameSequence = [];
         game.userSequence = [];
-        $(".start").removeClass("border").text("Round:");
+        $(".start").removeClass("border").text("Round:").css(
+            {"margin-top": "-7px",}
+            );
         $("#score").removeClass("hidden").text(game.round);
         $(".lg-rules").addClass("hidden");
+        $(".rules").addClass("hidden");
         $("#restart").removeClass("hidden");
-        $(".game-outter").css("top", "220px");
         $(".bttn").removeClass("disable");
         // Sequence starts after 3500 millisecond delay
         setTimeout(() => {
