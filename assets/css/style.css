@@ -120,6 +120,7 @@ header {
   text-align: center;
   display: block;
 }
+
 /* main section  */
 main {
   display: flex;
@@ -128,6 +129,25 @@ main {
   height: 70vh;
   margin-top: 63%;
   flex-grow: 1;
+}
+
+/* restart */
+#restart {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.restart {
+  background-color: rgb(133, 24, 24);
+  color: whitesmoke;
+  font-weight: bolder;
+  width: 50vw;
+  height: 5vh;
+  font-size: x-large;
+  border-radius: 7px;
+  text-align: center;
+  border: 1px outset whitesmoke;
+  margin-top: -13px;
 }
 
 /* rules section */
@@ -268,19 +288,17 @@ li {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
   font-size: 1em;
 }
 
 /* targets score box */
 #score {
-  background-color: rgb(37, 36, 51);
-  border: 1px solid var(--highlight);
   width: fit-content;
   max-width: 120px;
   text-align: center;
-  padding: 2px 5px;
+  padding: 0px 3px;
   overflow: hidden;
+  font-size: 12px;
 }
 
 /* footer styles */
@@ -293,6 +311,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  height: 10%;
 }
 
 /* copyrite styles */
