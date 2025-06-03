@@ -125,9 +125,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: auto;
+  height: 70vh;
+  margin-top: 63%;
   flex-grow: 1;
-  overflow: hidden;
 }
 
 /* rules section */
