@@ -278,10 +278,11 @@ $(document).ready(function () {
         game.round = 1;
         gameSequence = [];
         userSequence = [];
+        game.speed = 1000;
         // Reset elements to restart
         $(".start").addClass("border").text("Start").css(
-            {"margin-top": "initial"}
-            );
+            { "margin-top": "initial" }
+        );
         $("#score").addClass("hidden").text(game.round);
         $(".lg-rules").removeClass("hidden").addClass("visible");
         $("#restart").addClass("hidden");
