@@ -167,25 +167,20 @@ li {
 
 /* game section */
 #game {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  overflow: hidden;
+}
+.game {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 17%;
-}
-
-.restart {
-  background-color: rgb(133, 24, 24);
-  color: whitesmoke;
-  font-weight: bolder;
-  width: 50vw;
-  height: 5vh;
-  font-size: x-large;
-  border-radius: 7px;
-  text-align: center;
-  align-self: center;
-  border: 1px outset whitesmoke;
-  position: relative;
-  top: 235px;
+  height: 70%;
+  width: 100%;
+  margin-bottom: -30%;
+  
 }
 
 /* game object styles */
@@ -199,6 +194,7 @@ li {
   border-radius: 50%;
   animation: pulse-shadow 3s ease-in-out infinite;
   position: absolute;
+  margin-bottom: -40px;
 }
 
 /* container holds coloured buttons */
@@ -270,7 +266,6 @@ li {
   min-width: 50px;
   width: 50%;
   text-align: center;
-  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
