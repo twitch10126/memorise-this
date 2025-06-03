@@ -60,6 +60,22 @@ h3 {
   justify-content: space-evenly;
 }
 
+/* Help with logic from chatgpt */
+.gradient-text-git {
+    background: linear-gradient(to right, rgb(225, 0, 255), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-link {
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(166, 255, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 
 section {
   display: flex;
