@@ -208,13 +208,16 @@ $(document).ready(function () {
         // reset game values
         game.round = 1;
         game.gameSequence = [];
+        game.speed = 1000;
         game.userSequence = [];
         $(".bttn").addClass("disable");
         // Hide game elements and reset start button
         $(".start").addClass("border").text("Start").css(
-            {"margin-top": "initial",
-             "font-size": "initial"}
-            );
+            {
+                "margin-top": "initial",
+                "font-size": "initial"
+            }
+        );
         $("#score").addClass("hidden");
         $("#restart").addClass("hidden");
         $(".lg-rules").removeClass("hidden");
