@@ -203,6 +203,9 @@ main {
   font-size: larger;
 }
 
+.lg-rules:hover {
+  opacity: 0.5;
+}
 .rules {
   position: absolute;
   width: 100vw;
