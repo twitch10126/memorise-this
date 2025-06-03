@@ -138,7 +138,7 @@ $(document).ready(function () {
         // Generate next color in sequence
         nextColor();
         // Reduce speed every 5 rounds (minimum limit to prevent it from becoming too fast)
-        if (game.round % 5 === 0 && game.speed > 400) {
+        if (game.round % 3 === 0 && game.speed > 400) {
             game.speed -= 100; // Decrease delay by 100ms every 5 rounds
         }
         // Begin flashing sequence with a short delay
