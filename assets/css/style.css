@@ -349,36 +349,45 @@ footer {
 
 @media screen and (min-width: 768px) {
   h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 25px;
   }
+  h5 {
+    font-size: 35px;
+  }
   /* rules section */
-  #rules {
-    font-size: x-large;
+  .lg-rules {
+    top: 200px;
+    font-size: 30px;
   }
 
   .rules {
-    top: -155px;
+    top: -85px;
+    font-size: 25px;
   }
 
-  li {
-    padding-right: 30px;
-    padding-bottom: 5px;
+   table th {
+    font-size: 25px;
+  }
+
+  table td {
+    font-size: 20px;
   }
 
   main {
-    margin-top: -5%;
+    margin-top: 33%;
   }
 
   /* game object styles */
   .game-outter {
-    height: 60vh;
-    width: 60vh;
+    height: var(--size-vh);
+    width: var(--size-vh);
   }
 
   #score {
     max-width: 220px;
     margin-top: 10px;
+    font-size: 20px;
   }
 
   .center-circle {
@@ -388,11 +397,11 @@ footer {
   .start {
     width: 55%;
     margin-top: 10px;
-    font-size: smaller;
+    font-size: 3vw;
   }
 
-  .restart {
-    top: 287px;
+  #restart {
+    margin-top: 250px;
   }
 }
 
