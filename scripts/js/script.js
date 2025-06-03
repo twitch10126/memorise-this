@@ -56,8 +56,6 @@ $(document).ready(function () {
 
     // Initialize leaderboard on page load
     updateLeaderboard();
-
-
     /**
      * The StartGame function is called when the start button is clicked.
      * This function resets all values to the original starting value,
@@ -81,8 +79,8 @@ $(document).ready(function () {
         game.gameSequence = [];
         game.userSequence = [];
         $(".start").removeClass("border").text("Round:").css(
-            {"margin-top": "-7px",}
-            );
+            { "margin-top": "-7px", }
+        );
         $("#score").removeClass("hidden").text(game.round);
         $(".lg-rules").addClass("hidden");
         $(".rules").addClass("hidden");
