@@ -347,21 +347,21 @@ footer {
 
 @media screen and (min-width: 768px) {
   h3 {
-    font-size: 22px;
+    font-size: 19px;
     margin-bottom: 25px;
   }
   h5 {
-    font-size: 35px;
+    font-size: 26px;
   }
   /* rules section */
   .lg-rules {
-    top: 200px;
-    font-size: 30px;
+    top: 171px;
+    font-size: 21px;
   }
 
   .rules {
-    top: -85px;
-    font-size: 25px;
+    top: -59px;
+    font-size: 21px;
   }
 
    table th {
@@ -369,11 +369,12 @@ footer {
   }
 
   table td {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   main {
-    margin-top: 33%;
+    margin-top: 29%;
+    height: 63vh;
   }
 
   /* game object styles */
@@ -399,7 +400,7 @@ footer {
   }
 
   #restart {
-    margin-top: 250px;
+    margin-top: 192px;
   }
 }
 
