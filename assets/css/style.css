@@ -448,8 +448,8 @@ footer {
     font-size: 3vw;
   }
 
-  #restart {
-    margin-top: 192px;
+  .restart {
+    margin-top: 9vh;
   }
 }
 
@@ -500,7 +500,7 @@ footer {
   }
 
   .restart {
-    margin-top: 33px;
+    margin-top: 9vh;
   }
 }
 
@@ -560,11 +560,10 @@ footer {
     top: 260px;
   }
 
-  .restart {
-    margin-top: 62px;
+  #restart {
+    bottom: 9vh;
   }
-
-  footer {
-    height: 60px;
+  .restart {
+    width: 20vw;
   }
 }
