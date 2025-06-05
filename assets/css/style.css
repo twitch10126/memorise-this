@@ -37,7 +37,7 @@ h5 {
 }
 
 h5:hover {
-  color: grey;
+  color: rgb(184, 144, 13);
   animation: text-pulse 3s ease-in-out infinite;
 }
 
