@@ -75,8 +75,6 @@ h3 {
     -webkit-text-fill-color: transparent;
 }
 
-
-
 section {
   display: flex;
   justify-content: center;
@@ -115,11 +113,13 @@ section {
 /* page header */
 header {
   background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100%;
-  height: fit-content;
+  top: 0;
+  left: 0;
   z-index: 100;
+  min-height: 19vh;
 }
 
 /* leaderboard */
