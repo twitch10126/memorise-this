@@ -6,6 +6,7 @@ $(document).ready(function () {
     // game object
     let game = {
         active: false,
+        aiTurn: false,
         restart: false,
         isMuted: true,
         round: 1,
@@ -64,9 +65,6 @@ $(document).ready(function () {
      */
 
     function startGame() {
-        if (game.active === true) {
-            return;
-        }
         game.active = true;
         game.restart = false;
         // play game start audio 
@@ -88,7 +86,8 @@ $(document).ready(function () {
         $(".lg-rules").addClass("hidden");
         $(".rules").addClass("hidden");
         $("#restart").removeClass("hidden");
-        $(".bttn").removeClass("disable");
+        $(".bttn").addClass("disable");
+
         // Sequence starts after 3500 millisecond delay
         setTimeout(() => {
             // call nextColor
@@ -155,6 +154,8 @@ $(document).ready(function () {
      */
 
     function flash() {
+        game.aiTurn = true;
+
         // initialise i as 0
         let i = 0;
 
@@ -168,6 +169,10 @@ $(document).ready(function () {
                 // timeout to stop buttons flashing too frequntly 
                 i++;
                 setTimeout(flashSequence, game.speed);
+            }
+            else {
+                game.aiTurn = false;
+                $(".bttn").removeClass("disable");
             }
         }
 
@@ -260,6 +265,9 @@ $(document).ready(function () {
      */
 
     $(".red, .blue, .green, .purple").on("click", function () {
+        if (game.aiTurn || !game.active) {
+            return;
+        }
         // extract the class for the clicked button
         const selectedColor = $(this).attr("class").split(" ")[0];
         // push selected color to user sequence array
