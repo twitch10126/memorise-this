@@ -183,40 +183,37 @@ main {
 
 /* rules section */
 #rules {
-  position: fixed;
   width: 100vw;
-  position: fixed;
-  z-index: 90;
+  position: absolute;
   font-size: large;
   max-height: 450px;
-  top: 152px;
+  top: 19vh;
 }
 
 .lg-rules,
 .rules {
   position: relative;
   width: 100%;
+  z-index: 10;
 }
 
 .lg-rules {
   background-color: blanchedalmond;
-  height: 50px;
-  padding-top: 5px;
+  height: 5vh;
   font-weight: bolder;
-  font-size: larger;
+  font-size: 1.5rem;
 }
 
 .lg-rules:hover {
   opacity: 0.5;
 }
+
 .rules {
-  position: absolute;
-  width: 100vw;
   height: fit-content;
   background-color: blanchedalmond;
   padding-top: 15px;
-  padding-left:15px;
-  padding-right:15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 li {
