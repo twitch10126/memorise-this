@@ -51,7 +51,6 @@ $(document).ready(function () {
 
         // Save updated leaderboard to localStorage
         localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
-        console.log("Dropdown Menu HTML:", $("#dropdown-menu").html());
 
     }
 
