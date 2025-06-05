@@ -554,10 +554,9 @@ footer {
 
 
   /* game object styles */
-  .game-outter {
-    height: var(--size-vh);
-    width: var(--size-vh);
-    top: 260px;
+
+  .game {
+    margin-top: 25px;
   }
 
   #restart {
