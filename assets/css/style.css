@@ -488,8 +488,7 @@ footer {
   }
 
   .lg-rules {
-    height: 65px;
-    font-size: 30px;
+    padding-top: 4px;
   }
 
   .rules {
@@ -534,12 +533,11 @@ footer {
   }
 
   #rules {
-    top: 195px;
+    top: 24vh;
   }
 
   .lg-rules {
-    height: 50px;
-    font-size: 35px;
+    padding-top: 0;
   }
 
   .rules {
