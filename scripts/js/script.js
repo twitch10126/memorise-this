@@ -79,7 +79,10 @@ $(document).ready(function () {
         game.gameSequence = [];
         game.userSequence = [];
         $(".start").removeClass("border cursor").text("Round:").css(
-            { "margin-top": "-7px", }
+            {
+                "margin-top": "-7px",
+                "color": "var(--text)",
+            }
         );
         $("#score").removeClass("hidden").text(game.round);
         $(".lg-rules").addClass("hidden");
@@ -215,7 +218,8 @@ $(document).ready(function () {
         $(".start").addClass("border cursor").text("Start").css(
             {
                 "margin-top": "initial",
-                "font-size": "initial"
+                "font-size": "initial",
+                "color": "var(--gradient-color2)",
             }
         );
         $("#score").addClass("hidden");
@@ -281,7 +285,10 @@ $(document).ready(function () {
         game.speed = 1000;
         // Reset elements to restart
         $(".start").addClass("border cursor").text("Start").css(
-            { "margin-top": "initial" }
+            {
+                "margin-top": "initial",
+                "color": "var(--gradient-color2)",
+            }
         );
         $("#score").addClass("hidden").text(game.round);
         $(".lg-rules").removeClass("hidden").addClass("visible");
