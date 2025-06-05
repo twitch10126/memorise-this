@@ -212,7 +212,7 @@ $(document).ready(function () {
         game.userSequence = [];
         $(".bttn").addClass("disable");
         // Hide game elements and reset start button
-        $(".start").addClass("border").text("Start").css(
+        $(".start").addClass("border cursor").text("Start").css(
             {
                 "margin-top": "initial",
                 "font-size": "initial"
@@ -280,7 +280,7 @@ $(document).ready(function () {
         userSequence = [];
         game.speed = 1000;
         // Reset elements to restart
-        $(".start").addClass("border").text("Start").css(
+        $(".start").addClass("border cursor").text("Start").css(
             { "margin-top": "initial" }
         );
         $("#score").addClass("hidden").text(game.round);
