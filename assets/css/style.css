@@ -33,7 +33,7 @@ body {
 h5 {
   color: var(--text);
   text-align: center;
-  padding-top: 10%;
+  padding-top: 1rem;
 }
 
 h5:hover {
@@ -48,7 +48,7 @@ h3 {
   text-shadow: 2px 2px 15px rgb(7, 7, 247), -2px -2px 15px rgb(160, 2, 160),
     1px 1px 3px var(--text);
   font-size: 17px;
-  padding-top: 15%;
+  padding-top: 1rem;
 }
 
 .social {
@@ -325,7 +325,6 @@ li {
   font-size: 1em;
 }
 
-
 /* targets score box */
 #score {
   width: fit-content;
@@ -349,7 +348,7 @@ footer {
 }
 
 /* copyrite styles */
-#copyrite  {
+#copyrite {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -423,8 +422,8 @@ footer {
 
   .rules {
     font-size: 21px;
-    padding-left:30px;
-    padding-right:30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   table th {
@@ -476,7 +475,7 @@ footer {
   }
 
   h5 {
- font-size: 23px;
+    font-size: 23px;
   }
 
   table th {
@@ -527,8 +526,8 @@ footer {
     padding-top: 36px;
     height: 251px;
     font-size: 22px;
-    padding-left:35px;
-    padding-right:35px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
   .restart {
