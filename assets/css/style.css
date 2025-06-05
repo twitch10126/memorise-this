@@ -161,8 +161,11 @@ main {
 
 /* restart */
 #restart {
-  margin-top: 108px;
-  margin-bottom: 50px;
+  position: absolute;
+  margin-top: 55vh;
+  margin-bottom: 3vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .restart {
