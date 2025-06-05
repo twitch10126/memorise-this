@@ -223,19 +223,17 @@ li {
 
 /* game section */
 #game {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 80%;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
+
 .game {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
   width: 100%;
-  margin-bottom: -30%;
 }
 
 /* game object styles */
