@@ -92,13 +92,13 @@ $(document).ready(function () {
             // call nextColor
             nextColor();
             // call sequence
-            setTimeout(flash, 1000)
+            setTimeout(flash, 1000);
         }, 3500);
-    };
+    }
 
     function nextColor() {
         // generate random color between 1 and 4 of the colors array
-        randomColor = game.colors[(Math.floor(Math.random() * 4))];
+        let randomColor = game.colors[(Math.floor(Math.random() * 4))];
         // push random color to game sequence
         game.gameSequence.push(randomColor);
     }
@@ -176,7 +176,7 @@ $(document).ready(function () {
         }
 
         flashSequence();
-    };
+    }
 
     /** 
      * The lights function plays the correct sound for the current button 
@@ -234,7 +234,7 @@ $(document).ready(function () {
             $(".score").text(`Your Score: ${finalScore}`);
         }
         else {
-            alert("Please play to recieve a valid score")
+            alert("Please play to recieve a valid score");
         }
 
 
@@ -292,8 +292,8 @@ $(document).ready(function () {
         game.restart = true;
         // Reset game variables
         game.round = 1;
-        gameSequence = [];
-        userSequence = [];
+        game.gameSequence = [];
+        game.userSequence = [];
         game.speed = 1000;
         // Reset elements to restart
         $(".start").addClass("border cursor").text("Start").css(
