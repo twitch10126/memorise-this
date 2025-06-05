@@ -126,7 +126,6 @@ header {
 #dropdownBtn {
   background-color: inherit;
   border: none;
-  border-bottom: 1px solid var(--highlight);
   margin-bottom: 10px;
 }
 
