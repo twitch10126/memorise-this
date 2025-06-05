@@ -25,17 +25,20 @@
 
     <header>
         <!--mute button -->
-        <button id="muteToggle">
+        <button id="muteToggle" aria-label="mute-toggle">
             <i class="fa-solid fa-volume-xmark"></i>
         </button>
 
-        <!-- leaderboard button -->
-        <button id="dropdownBtn">
-            <h5>LeaderBoard</h5>
-        </button>
+
 
         <!-- table -->
         <table class="table">
+            <!-- leaderboard button -->
+            <button id="dropdownBtn" aria-label="leaderboard">
+                <h5>LeaderBoard</h5>
+            </button>
+
+
             <thead>
                 <tr>
                     <th>Name:</th>
