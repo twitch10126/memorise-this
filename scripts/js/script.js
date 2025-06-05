@@ -211,7 +211,6 @@ $(document).ready(function () {
         audio.muted = game.isMuted;
         audio.play();
         sounds.push(audio);
-        $("#saveModal").modal("show");
         // reset game values
         game.round = 1;
         game.gameSequence = [];
@@ -230,7 +229,13 @@ $(document).ready(function () {
         $("#restart").addClass("hidden");
         $(".lg-rules").removeClass("hidden");
         // Automatically open the modal when the game ends
-        $(".score").text(`Your Score: ${finalScore}`);
+        if (finalScore >= 1) {
+            $("#saveModal").modal("show").css("padding-left", "10px");
+            $(".score").text(`Your Score: ${finalScore}`);
+        }
+        else {
+            alert("Please play to recieve a valid score")
+        }
 
 
     }
