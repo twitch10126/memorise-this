@@ -78,7 +78,7 @@ $(document).ready(function () {
         game.round = 1;
         game.gameSequence = [];
         game.userSequence = [];
-        $(".start").removeClass("border").text("Round:").css(
+        $(".start").removeClass("border cursor").text("Round:").css(
             { "margin-top": "-7px", }
         );
         $("#score").removeClass("hidden").text(game.round);
