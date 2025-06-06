@@ -49,3 +49,30 @@ source: [memorise-this amiresponsive](https://ui.dev/amiresponsive?url=https://t
 - Visual and audio cues for correct/incorrect inputs.
 - Progress tracking to display scores.
 
+#### 3. Structure
+
+**Information Architecture**
+
+- **Header Area**:
+- Mute button: Allows the user to toggle game sound on/off.
+- Leaderboard: Displays users inputted name and score.
+
+- **Main Interface**:
+  - Rules Button: Provides quick access to the game rules before the game starts.
+  - Game Area: The gameplay screen where sequences are presented and user interactions take place.
+  - Feedback System: Success indicators after each successful sequence or Immediate alert on incorrect input.
+  - Progress Tracking: Shows current round to motivate continued play.
+
+
+
+**User Flow**
+
+1. User opens the game → sees leaderboard and mute button in the header.
+2. Reads rules (optional) → presses the "Start" button.
+3. Game plays a pattern → user repeats it using the coloured game buttons.
+4. User receives feedback (success or failure).
+5. If successful → the next level begins with a longer pattern.
+6. User tracks round through on screen indicator.
+7. If incorrect → the game resets and a message appears with option to input your name and save score to the leaderboard.
+
+
