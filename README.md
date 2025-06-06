@@ -39,3 +39,13 @@ source: [memorise-this amiresponsive](https://ui.dev/amiresponsive?url=https://t
 - Showcase a well-designed, accessible tool that supports learning.
 - Create an engaging and rewarding experience that encourages repeated play.
 
+#### 2. Scope
+
+**[Features](#features)** (see below)
+
+**Content Requirements**
+
+- Clear labels and instructions for game buttons (e.g., "Start", "rules", "leaderboard").
+- Visual and audio cues for correct/incorrect inputs.
+- Progress tracking to display scores.
+
