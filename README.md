@@ -76,3 +76,13 @@ source: [memorise-this amiresponsive](https://ui.dev/amiresponsive?url=https://t
 7. If incorrect → the game resets and a message appears with option to input your name and save score to the leaderboard.
 
 
+#### 4. Skeleton
+
+**[Wireframes](#wireframes)** (see below)
+
+#### 5. Surface
+
+**Visual Design Elements**
+
+- **[Colours](#colour-scheme)** (see below)
+- **[Typography](#typography)** (see below)
