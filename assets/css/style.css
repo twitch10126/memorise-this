@@ -369,6 +369,17 @@ footer {
   align-self: flex-end;
 }
 
+/* 404 page styles */
+
+.title {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+p {
+  color: var(--text);
+}
+
 /* Keyframes */
 @keyframes pulse-shadow {
   0% {
