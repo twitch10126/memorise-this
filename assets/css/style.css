@@ -247,7 +247,7 @@ li {
   width: var(--size-vw);
   background-color: black;
   border-radius: 50%;
-  animation: pulse-shadow 3s ease-in-out infinite;
+  animation: pulse-shadow 3s ease-in-out alternate-reverse infinite;
   position: absolute;
 }
 
