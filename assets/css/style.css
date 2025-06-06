@@ -1,5 +1,5 @@
-/* import Cutive Mono from google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+/* import Cutive Mono and Lora from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 /* variables */
 :root {
