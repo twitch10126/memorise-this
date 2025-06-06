@@ -37,6 +37,8 @@ h5 {
   text-align: center;
   padding-top: 1rem;
   text-decoration: underline;
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+
 }
 
 h5:hover {
