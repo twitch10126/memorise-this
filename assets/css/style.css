@@ -15,6 +15,7 @@
   --button3: #941494;
   --button4: #008000;
   --gold-highlight: #b8900d;
+  --rules: #ffebcd;
 }
 
 /* general styles */
@@ -177,7 +178,7 @@ main {
   font-size: x-large;
   border-radius: 7px;
   text-align: center;
-  border: 1px outset whitesmoke;
+  border: 1px outset var(--text);
   margin-top: -13px;
 }
 
@@ -198,7 +199,7 @@ main {
 }
 
 .lg-rules {
-  background-color: blanchedalmond;
+  background-color: var(--rules);
   height: 5vh;
   font-weight: bolder;
   font-size: 1.5rem;
@@ -211,7 +212,7 @@ main {
 
 .rules {
   height: fit-content;
-  background-color: blanchedalmond;
+  background-color: var(--rules);
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
