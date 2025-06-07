@@ -186,3 +186,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | [![GitHub issues](https://img.shields.io/github/issues/twitch10126/memorise-this)](https://www.github.com/twitch10126/memorise-this/issues)                                        | ![screenshot](documentation/issues/open-issues.png)   |
 | [![GitHub closed issues](https://img.shields.io/github/issues-closed/twitch10126/memorise-this)](https://www.github.com/twitch10126/memorise-this/issues?q=is%3Aissue+is%3Aclosed) | ![screenshot](documentation/issues/closed-issues.png) |
+
+### MoSCoW Prioritization
+
+I've decomposed my Epics into User Stories for prioritizing and implementing them. Using this approach, I was able to apply "MoSCoW" prioritization and labels to my User Stories within the Issues tab.
+
+- **Must Have**: guaranteed to be delivered - required to Pass the project (_max ~60% of stories_)
+- **Should Have**: adds significant value, but not vital (_~20% of stories_)
+- **Could Have**: has small impact if left out (_the rest ~20% of stories_)
+- **Won't Have**: not a priority for this iteration - future features
+
