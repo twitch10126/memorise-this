@@ -172,3 +172,9 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com)             | Help debug, troubleshoot, and explain things.                               |
 | [![badge](https://img.shields.io/badge/W3Schools-grey?logo=w3schools&logoColor=04AA6D)](https://www.w3schools.com)      | Tutorials/Reference Guide                                                   |
 
+## Agile Development Process
+
+### GitHub Projects
+
+![screenshot](documentation/projects/project.png)
+
