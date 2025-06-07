@@ -1,5 +1,5 @@
 /* import Cutive Mono and Lora from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 /* variables */
 :root {
@@ -37,11 +37,7 @@ h5 {
   text-align: center;
   padding-top: 1rem;
   text-decoration: underline;
-  font-family: 'Lora', Georgia, 'Times New Roman', serif;
-
-}
-
-h5:hover {
+  font-family: "Lora", Georgia, "Times New Roman", serif;
   color: var(--gold-highlight);
   animation: text-pulse 3s ease-in-out infinite;
 }
@@ -134,7 +130,7 @@ header {
   text-align: center;
   padding-top: 1rem;
   text-decoration: underline;
-  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
   font-size: 20px;
 }
 
@@ -336,7 +332,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   font-size: 1em;
-  color: var(--gradient-color2)
+  color: var(--gradient-color2);
 }
 
 .cursor {
