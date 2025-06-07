@@ -86,3 +86,21 @@ source: [memorise-this amiresponsive](https://ui.dev/amiresponsive?url=https://t
 
 - **[Colours](#colour-scheme)** (see below)
 - **[Typography](#typography)** (see below)
+
+### Colour Scheme
+
+I used [coolors.co](https://coolors.co/050514-03030c-2a133f-808080-b8900d-ff0000-0000ff-941494-008000-ffebcd) to generate my color palette.
+
+- `#050514` background-color.
+- `#2a133f` gradient-color1.
+- `#03030c` gradient-color2.
+- `#808080` highlight.
+- `#ff0000` button1.
+- `#0000ff` button2.
+- `#941494` button3.
+- `#008000` button4.
+- `#008000` gold-highlight.
+- `#ffebcd` rules.
+
+![screenshot](documentation/palette/coolors.png)
+
