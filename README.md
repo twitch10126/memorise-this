@@ -246,3 +246,7 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 2. At the top of the Repository, just below the "Settings" button on the menu, locate and click the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
+### Local VS Deployment
+
+There are no remaining major differences between the local version when compared to the deployed version online.
+
