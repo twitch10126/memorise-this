@@ -110,3 +110,13 @@ I used [coolors.co](https://coolors.co/050514-03030c-2a133f-808080-b8900d-ff0000
 - [Lora](https://fonts.google.com/specimen/Lora) was used for the leaderboard and 404 titles.
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the mute button in the header and the social media icons in the footer.
 
+## Wireframes
+
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+| Page | Mobile | Tablet | Desktop |
+| --- | --- | --- | --- |
+| Home | ![screenshot](documentation/wireframes/mobile.png) | ![screenshot](documentation/wireframes/tablet.png) | ![screenshot](documentation/wireframes/desktop.png) |
+| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+
