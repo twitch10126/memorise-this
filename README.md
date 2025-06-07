@@ -196,3 +196,25 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 - **Could Have**: has small impact if left out (_the rest ~20% of stories_)
 - **Won't Have**: not a priority for this iteration - future features
 
+## Testing
+
+> [!NOTE]
+> For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment
+
+### GitHub Pages
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://www.github.com/twitch10126/memorise-this), navigate to the "Settings" tab.
+- In Settings, click on the "Pages" link from the menu on the left.
+- From the "Build and deployment" section, click the drop-down called "Branch", and select the **main** branch, then click "Save".
+- The page will be automatically refreshed with a detailed message display to indicate the successful deployment.
+- Allow up to 5 minutes for the site to fully deploy.
+
+The live link can be found on [GitHub Pages](https://twitch10126.github.io/memorise-this).
+
+### Local Development
+
+This project can be cloned or forked in order to make a local copy on your own system.
