@@ -134,3 +134,16 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | As a player |  I want the option to restart the game after losing | so that I can try again. |
 | As a player |  I want my highest score to be saved | so that I can challenge myself to beat it. |
 
+## Features
+
+### Existing Features
+
+| Feature | Notes | Screenshot |
+| --- | --- | --- |
+| Coloured buttons | The coloured buttons (`red`, `blue`, `green`, `purple`) are large and colorful to allow users to easily input the correct sequence set by the AI. Each coloured button has its own unique sound and flashes for easy identification. | ![screenshot](documentation/features/game-interface.png) |
+| Header/Leaderboard | This section visibly displays the mute button the players inputted name, score and reset button. The leaderboard displays only the top 10 scores and will only update if the score is greater than or equal to 1 | ![screenshot](documentation/features/leaderboard.png) |
+| Mute button | This button allows users to toggle the game sound on and off. On page load the volume is muted by default. | ![screenshot](documentation/features/mute-button.png) |
+| Restart button | The restart button resets the game to its initial state waiting for the user to start the next game. | ![screenshot](documentation/features/restart.png) |
+| Alert | Once the user enters the wrong sequence, an alert pops up prompting the user to enter their name. This showcases if they got it correct, or if they've gotten it incorrect, therefore also showing the correct answer. | ![screenshot](documentation/features/modal.png) |
+| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Memorise this* site by using the standard navbar game interface and footer. | ![screenshot](documentation/features/404.png) |
+
