@@ -63,8 +63,6 @@ source: [memorise-this amiresponsive](https://ui.dev/amiresponsive?url=https://t
   - Feedback System: Success indicators after each successful sequence or Immediate alert on incorrect input.
   - Progress Tracking: Shows current round to motivate continued play.
 
-
-
 **User Flow**
 
 1. User opens the game → sees leaderboard and mute button in the header.
@@ -74,7 +72,6 @@ source: [memorise-this amiresponsive](https://ui.dev/amiresponsive?url=https://t
 5. If successful → the next level begins with a longer pattern.
 6. User tracks round through on screen indicator.
 7. If incorrect → the game resets and a message appears with option to input your name and save score to the leaderboard.
-
 
 #### 4. Skeleton
 
@@ -115,37 +112,37 @@ I used [coolors.co](https://coolors.co/050514-03030c-2a133f-808080-b8900d-ff0000
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
-| Page | Mobile | Tablet | Desktop |
-| --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/mobile.png) | ![screenshot](documentation/wireframes/tablet.png) | ![screenshot](documentation/wireframes/desktop.png) |
-| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+| Page | Mobile                                                 | Tablet                                                 | Desktop                                                 |
+| ---- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- |
+| Home | ![screenshot](documentation/wireframes/mobile.png)     | ![screenshot](documentation/wireframes/tablet.png)     | ![screenshot](documentation/wireframes/desktop.png)     |
+| 404  | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
 
 ## User Stories
 
-| Target | Expectation | Outcome |
-| --- | --- | --- |
-| As a player | I want to see a clear start button on the screen | so that I can begin the game. |
-| As a player | I want to understand the rules of the game before starting | so that I know how to play. |
-| As a player |  I want the game to display a sequence of coloured lights | so that I can memorize and repeat it. |
-| As a player |  I want to press the correct sequence of coloured buttons | so that I can advance to the next round. |
-| As a player | I want the sequence to increase in difficulty as I progress | so that the game remains challenging. |
-| As a player |  I want the game to provide instant feedback when I press a button | so that I know if my input was correct or incorrect. |
-| As a player | I want the game to show my score after each round | so that I can track my progress. |
-| As a player |  I want the option to restart the game after losing | so that I can try again. |
-| As a player |  I want my highest score to be saved | so that I can challenge myself to beat it. |
+| Target      | Expectation                                                       | Outcome                                              |
+| ----------- | ----------------------------------------------------------------- | ---------------------------------------------------- |
+| As a player | I want to see a clear start button on the screen                  | so that I can begin the game.                        |
+| As a player | I want to understand the rules of the game before starting        | so that I know how to play.                          |
+| As a player | I want the game to display a sequence of coloured lights          | so that I can memorize and repeat it.                |
+| As a player | I want to press the correct sequence of coloured buttons          | so that I can advance to the next round.             |
+| As a player | I want the sequence to increase in difficulty as I progress       | so that the game remains challenging.                |
+| As a player | I want the game to provide instant feedback when I press a button | so that I know if my input was correct or incorrect. |
+| As a player | I want the game to show my score after each round                 | so that I can track my progress.                     |
+| As a player | I want the option to restart the game after losing                | so that I can try again.                             |
+| As a player | I want my highest score to be saved                               | so that I can challenge myself to beat it.           |
 
 ## Features
 
 ### Existing Features
 
-| Feature | Notes | Screenshot |
-| --- | --- | --- |
-| Coloured buttons | The coloured buttons (`red`, `blue`, `green`, `purple`) are large and colorful to allow users to easily input the correct sequence set by the AI. Each coloured button has its own unique sound and flashes for easy identification. | ![screenshot](documentation/features/game-interface.png) |
-| Header/Leaderboard | This section visibly displays the mute button the players inputted name, score and reset button. The leaderboard displays only the top 10 scores and will only update if the score is greater than or equal to 1 | ![screenshot](documentation/features/leaderboard.png) |
-| Mute button | This button allows users to toggle the game sound on and off. On page load the volume is muted by default. | ![screenshot](documentation/features/mute-button.png) |
-| Restart button | The restart button resets the game to its initial state waiting for the user to start the next game. | ![screenshot](documentation/features/restart.png) |
-| Alert | Once the user enters the wrong sequence, an alert pops up prompting the user to enter their name. This showcases if they got it correct, or if they've gotten it incorrect, therefore also showing the correct answer. | ![screenshot](documentation/features/modal.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Memorise this* site by using the standard navbar game interface and footer. | ![screenshot](documentation/features/404.png) |
+| Feature            | Notes                                                                                                                                                                                                                                                                    | Screenshot                                               |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
+| Coloured buttons   | The coloured buttons (`red`, `blue`, `green`, `purple`) are large and colorful to allow users to easily input the correct sequence set by the AI. Each coloured button has its own unique sound and flashes for easy identification.                                     | ![screenshot](documentation/features/game-interface.png) |
+| Header/Leaderboard | This section visibly displays the mute button the players inputted name, score and reset button. The leaderboard displays only the top 10 scores and will only update if the score is greater than or equal to 1                                                         | ![screenshot](documentation/features/leaderboard.png)    |
+| Mute button        | This button allows users to toggle the game sound on and off. On page load the volume is muted by default.                                                                                                                                                               | ![screenshot](documentation/features/mute-button.png)    |
+| Restart button     | The restart button resets the game to its initial state waiting for the user to start the next game.                                                                                                                                                                     | ![screenshot](documentation/features/restart.png)        |
+| Alert              | Once the user enters the wrong sequence, an alert pops up prompting the user to enter their name. This showcases if they got it correct, or if they've gotten it incorrect, therefore also showing the correct answer.                                                   | ![screenshot](documentation/features/modal.png)          |
+| 404                | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the _Memorise this_ site by using the standard navbar game interface and footer. | ![screenshot](documentation/features/404.png)            |
 
 ### Future Features
 
@@ -154,3 +151,24 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 - **Multiplayer mode**: Add a multiplayer mode so player can also play with their friends.
 - **Global leaderboard**: Add a global leaderboard so players can compete with players anywhere for a shot at getting your name on the global leaderboard.
 - **Bonus games**: Add bonus games to allow users to collect collectables.
+
+## Tools & Technologies
+
+| Tool / Tech                                                                                                             | Use                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [![badge](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://markdown.2bn.dev) | Generate README and TESTING templates.                                      |
+| [![badge](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com)                        | Version control. (`git add`, `git commit`, `git push`)                      |
+| [![badge](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com)                   | Secure online code storage.                                                 |
+| [![badge](https://img.shields.io/badge/VSCode-grey?logo=htmx&logoColor=007ACC)](https://code.visualstudio.com)          | Local IDE for development.                                                  |
+| [![badge](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML)      | Main site content and layout.                                               |
+| [![badge](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS)         | Design and layout.                                                          |
+| [![badge](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com)   | User interaction on the site.                                               |
+| [![badge](https://img.shields.io/badge/jQuery-grey?logo=jquery&logoColor=0769AD)](https://jquery.com)                   | User interaction on the site.                                               |
+| [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com)  | Hosting the deployed front-end site.                                        |
+| [![badge](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com)       | Front-end CSS framework for modern responsiveness and pre-built components. |
+| [![badge](https://img.shields.io/badge/Jest-grey?logo=jest&logoColor=c21325)](https://jestjs.io)                        | Automated JavaScript testing.                                               |
+| [![badge](https://img.shields.io/badge/Balsamiq-grey?logo=barmenia&logoColor=CE0908)](https://balsamiq.com/wireframes)  | Creating wireframes.                                                        |
+| [![badge](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com)   | Icons.                                                                      |
+| [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com)             | Help debug, troubleshoot, and explain things.                               |
+| [![badge](https://img.shields.io/badge/W3Schools-grey?logo=w3schools&logoColor=04AA6D)](https://www.w3schools.com)      | Tutorials/Reference Guide                                                   |
+
