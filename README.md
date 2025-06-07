@@ -178,3 +178,11 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](documentation/projects/project.png)
 
+### GitHub Issues
+
+[GitHub Issues](https://www.github.com/twitch10126/memorise-this/issues) served as an another Agile tool. There, I managed my User Stories and Milestone tasks, and tracked any issues/bugs.
+
+| Link                                                                                                                                                                               | Screenshot                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| [![GitHub issues](https://img.shields.io/github/issues/twitch10126/memorise-this)](https://www.github.com/twitch10126/memorise-this/issues)                                        | ![screenshot](documentation/issues/open-issues.png)   |
+| [![GitHub closed issues](https://img.shields.io/github/issues-closed/twitch10126/memorise-this)](https://www.github.com/twitch10126/memorise-this/issues?q=is%3Aissue+is%3Aclosed) | ![screenshot](documentation/issues/closed-issues.png) |
