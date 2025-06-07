@@ -234,7 +234,8 @@ $(document).ready(function () {
             $(".score").text(`Your Score: ${finalScore}`);
         }
         else {
-            alert("Please play to recieve a valid score");
+            // delay alert so sound will play
+            setTimeout(() => alert("Please play to receive a valid score"), 100);
         }
 
 
