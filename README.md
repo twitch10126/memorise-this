@@ -265,12 +265,18 @@ There are no remaining major differences between the local version when compared
 ### Media
 
 | Source                                                         | Notes                                                         |
-| -------------------------------------------------------------- | ------------------------------------------------------------- |
+| -------------------------------------------------------------- | ------------------------------------------------------------- | --- | -------------------------------------------------------------- | ---------------------- |
 | [favicon.io](https://favicon.io)                               | Generating the favicon                                        |
 | [Font Awesome](https://fontawesome.com)                        | Icons used throughout the site (Mute button and social icons) |
-| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Start game(Game Countdown 62)                                               || [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | End game(Game Over 39)                                               |
+| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Start game(Game Countdown 62)                                 |     | [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | End game(Game Over 39) |
 | [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | blue button(b6)                                               |
 | [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Red Button(c6)                                                |
 | [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Purple Button(f6)                                             |
 | [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Green Button(g6)                                              |
 
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
+- I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my tutor nick sutton, for supporting me in my development towards becoming a software developer.
