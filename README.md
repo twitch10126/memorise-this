@@ -250,3 +250,15 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 
 There are no remaining major differences between the local version when compared to the deployed version online.
 
+## Credits
+
+### Content
+
+| Source                                                 | Notes                                         |
+| ------------------------------------------------------ | --------------------------------------------- |
+| [Markdown Builder](https://markdown.2bn.dev)           | Help generating Markdown files                |
+| [Wes Bos](https://www.youtube.com/watch?v=YL1F4dCUlLc) | "How LocalStorage and Event Delegation work." |
+| [Bootstrap](https://getbootstrap.com)                  | Used for the modal                            |
+| [ChatGPT](https://chatgpt.com)                         | Help with code logic and explanations         |
+| [W3schools](https://www.w3schools.com/)                | Help with CSS properties                      |
+
