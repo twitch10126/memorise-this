@@ -262,3 +262,15 @@ There are no remaining major differences between the local version when compared
 | [ChatGPT](https://chatgpt.com)                         | Help with code logic and explanations         |
 | [W3schools](https://www.w3schools.com/)                | Help with CSS properties                      |
 
+### Media
+
+| Source                                                         | Notes                                                         |
+| -------------------------------------------------------------- | ------------------------------------------------------------- |
+| [favicon.io](https://favicon.io)                               | Generating the favicon                                        |
+| [Font Awesome](https://fontawesome.com)                        | Icons used throughout the site (Mute button and social icons) |
+| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Start game(Game Countdown 62)                                               || [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | End game(Game Over 39)                                               |
+| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | blue button(b6)                                               |
+| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Red Button(c6)                                                |
+| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Purple Button(f6)                                             |
+| [Pixabay](https://pixabay.com/sound-effects/search/piano-note) | Green Button(g6)                                              |
+
