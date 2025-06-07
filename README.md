@@ -147,3 +147,10 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Alert | Once the user enters the wrong sequence, an alert pops up prompting the user to enter their name. This showcases if they got it correct, or if they've gotten it incorrect, therefore also showing the correct answer. | ![screenshot](documentation/features/modal.png) |
 | 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Memorise this* site by using the standard navbar game interface and footer. | ![screenshot](documentation/features/404.png) |
 
+### Future Features
+
+- **Level selection**: Add level selection options after a user has failed the sequence but has reached a set amount of levels (10, 15, 20) etc so they can continue from the level they lost.
+- **Achievements**: Display achievements a user has collected from completing levels.
+- **Multiplayer mode**: Add a multiplayer mode so player can also play with their friends.
+- **Global leaderboard**: Add a global leaderboard so players can compete with players anywhere for a shot at getting your name on the global leaderboard.
+- **Bonus games**: Add bonus games to allow users to collect collectables.
