@@ -120,3 +120,17 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Home | ![screenshot](documentation/wireframes/mobile.png) | ![screenshot](documentation/wireframes/tablet.png) | ![screenshot](documentation/wireframes/desktop.png) |
 | 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
 
+## User Stories
+
+| Target | Expectation | Outcome |
+| --- | --- | --- |
+| As a player | I want to see a clear start button on the screen | so that I can begin the game. |
+| As a player | I want to understand the rules of the game before starting | so that I know how to play. |
+| As a player |  I want the game to display a sequence of coloured lights | so that I can memorize and repeat it. |
+| As a player |  I want to press the correct sequence of coloured buttons | so that I can advance to the next round. |
+| As a player | I want the sequence to increase in difficulty as I progress | so that the game remains challenging. |
+| As a player |  I want the game to provide instant feedback when I press a button | so that I know if my input was correct or incorrect. |
+| As a player | I want the game to show my score after each round | so that I can track my progress. |
+| As a player |  I want the option to restart the game after losing | so that I can try again. |
+| As a player |  I want my highest score to be saved | so that I can challenge myself to beat it. |
+
