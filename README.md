@@ -104,3 +104,9 @@ I used [coolors.co](https://coolors.co/050514-03030c-2a133f-808080-b8900d-ff0000
 
 ![screenshot](documentation/palette/coolors.png)
 
+### Typography
+
+- [Cutive Mono](https://fonts.google.com/specimen/Cutive+Mono) was used for the headings inside the game interface.
+- [Lora](https://fonts.google.com/specimen/Lora) was used for the leaderboard and 404 titles.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the mute button in the header and the social media icons in the footer.
+
