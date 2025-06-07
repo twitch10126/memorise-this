@@ -349,6 +349,34 @@ li {
   font-size: 12px;
 }
 
+/* modal styles */
+
+.btn-close {
+  filter: invert(1);
+}
+.modal-content {
+  background: var(--background-gradient);
+  color: var(--text);
+  border: 3px solid var(--text);
+}
+
+.score {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#saveScore {
+  border-radius: 3px;
+  background-color: var(--gold-highlight);
+  color: black;
+  border: 1px solid var(--text);
+}
+
+.btn-secondary {
+  background-color: var(--warning-btn);
+  border: 1px solid var(--text);
+}
+
 /* footer styles */
 footer {
   position: fixed;
