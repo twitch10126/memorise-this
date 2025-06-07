@@ -4,8 +4,7 @@
 /* variables */
 :root {
   --background-color: #050514;
-  --gradient-color1: #2a133f;
-  --gradient-color2: #03030c;
+  --background-gradient: linear-gradient(#2a133f, #03030c);
   --highlight: #808080;
   --text: #ffffff;
   --size-vw: 85vw;
@@ -16,6 +15,7 @@
   --button4: #008000;
   --gold-highlight: #b8900d;
   --rules: #ffebcd;
+  --warning-btn: rgb(133, 24, 24);
 }
 
 /* general styles */
@@ -111,7 +111,7 @@ section {
 
 /* page header */
 header {
-  background: linear-gradient(var(--gradient-color1), var(--gradient-color2));
+  background: var(--background-gradient);
   position: fixed;
   text-align: center;
   width: 100%;
@@ -150,7 +150,7 @@ header {
 .reset {
   width: 100%;
   padding: 10px;
-  background-color: rgb(133, 24, 24);
+  background-color: var(--warning-btn);
   color: var(--text);
   border: none;
   cursor: pointer;
@@ -179,7 +179,7 @@ main {
 }
 
 .restart {
-  background-color: rgb(133, 24, 24);
+  background-color: var(--warning-btn);
   color: whitesmoke;
   font-weight: bolder;
   width: 50vw;
