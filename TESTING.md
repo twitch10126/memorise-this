@@ -35,3 +35,12 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | scripts | [script.test.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.test.js) | N/A | ![screenshot](documentation/validation/js-scripts-script.test.png) | Notes (if applicable) |
 
 
+## Responsiveness
+
+I've tested my deployed project to check for responsiveness issues.
+
+| Page | Mobile | Tablet | Desktop | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
+| Game | ![screenshot](documentation/responsiveness/mobile-game.png) | ![screenshot](documentation/responsiveness/tablet-game.png) | ![screenshot](documentation/responsiveness/desktop-game.png) | Works as expected |
+| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
