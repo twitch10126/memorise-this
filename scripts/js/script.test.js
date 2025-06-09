@@ -45,5 +45,18 @@ describe("game tests", () => {
         test("active is set to false", () => {
             expect(game.active).toBe(false);
         });
+
+        test("aiTurn is set to false", () => {
+            expect(game.aiTurn).toBe(false);
+        });
+
+        test("restart is set to false", () => {
+            expect(game.restart).toBe(false);
+        });
+
+        test("isMuted is set to true", () => {
+            expect(game.isMuted).toBe(true);
+        });
+
     });
 });
