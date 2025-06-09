@@ -74,6 +74,17 @@ describe("game tests", () => {
             nextRound();
             expect(game.round).toBe(3);
         });
+
+        test("nextRound sequence is reset to an empty array ", () => {
+            nextRound();
+            expect(game.userSequence).toEqual([]);
+        });
+
+        test("Score is updated with current round", () => {
+            game.round = 4;
+            nextRound();
+            expect($("#score").text()).toEqual(game.round.toString());
+        });
     });
 
 });
