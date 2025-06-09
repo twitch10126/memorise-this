@@ -17,3 +17,33 @@ beforeAll(() => {
     document.write(fileContents);
     document.close();
 });
+
+describe("game tests", () => {
+
+    describe("game object tests", () => {
+
+        test("game speed is 1000ms", () => {
+            expect(game.speed).toBe(1000);
+        });
+
+        test("game round is equal to 1", () => {
+            expect(game.round).toBe(1);
+        });
+
+        test("game sequence is equal to an empty array", () => {
+            expect(game.gameSequence).toEqual([]);
+        });
+
+        test("user sequence is equal to an empty array", () => {
+            expect(game.userSequence).toEqual([]);
+        });
+
+        test("game colors array is ['red', 'blue', 'green', 'purple']", () => {
+            expect(game.colors).toEqual(["red", "blue", "green", "purple"]);
+        });
+
+        test("active is set to false", () => {
+            expect(game.active).toBe(false);
+        });
+    });
+});
