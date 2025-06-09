@@ -332,7 +332,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   font-size: 1em;
-  color: var(--gradient-color2);
+  color: black;
 }
 
 .cursor {
