@@ -163,3 +163,18 @@ Below are the results from the tests that I've written for this application:
 | Test Suites | Tests | Screenshot |
 | --- | --- | --- |
 | 1 passed | 13 passed | ![screenshot](documentation/automation/jest-coverage.png) |
+
+#### Jest Test Issues
+
+## Bugs
+
+### Fixed Bugs
+
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3Atwitch10126%2Fmemorise-this%20label%3Abug&label=bugs)](https://www.github.com/twitch10126/memorise-this/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+
+I've used [GitHub Issues](https://www.github.com/twitch10126/memorise-this/issues) to track and manage bugs and issues during the development stages of my project.
+
+All previously closed/fixed bugs can be tracked [here](https://www.github.com/twitch10126/memorise-this/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
+
+![screenshot](documentation/bugs/gh-issues-closed.png)
+
