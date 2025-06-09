@@ -59,4 +59,12 @@ describe("game tests", () => {
         });
 
     });
+
+
+    describe("nextColor tests", () => {
+        test("nextColor pushes randomColor into gameSequence array ", () => {
+            nextColor();
+            expect(game.gameSequence.length).toBe(1);
+        });
+    });
 });
