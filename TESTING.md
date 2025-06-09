@@ -64,3 +64,22 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
 | 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
 
+## Defensive Programming
+
+Defensive programming was manually tested with the below user acceptance testing:
+
+| Page/Feature | Expectation | Test | Result | Screenshot |
+| --- | --- | --- | --- | --- |
+| Button Press | Only valid game buttons should be clickable | Click outside game buttons | Game ignores invalid clicks. | ![screenshot](documentation/defensive/before-start.png) |
+| | Coloured buttons (red, blue, green, purple) should only be clickable once the game has started | Clicked the game buttons before the start button was pressed,   | Coloured buttons are disabled before start button is pressed. | ![screenshot](documentation/defensive/before-start.png) |
+| | Coloured buttons (red, blue, green, purple) should only be clickable when the start audio has ended. | Click game buttons while the start audio is playing | Buttons are disabled during start audio. | ![screenshot](documentation/defensive/after-start.png) |
+| | Coloured buttons (red, blue, green, purple) should not be clickable during the AI's turn. | Click the coloured buttons while the AI sequence is playing | Buttons are disabled during AI turn. | ![screenshot](documentation/defensive/ai-turn.png) |
+| | Reset button should reset local storage. | Update leaderboard with some scores then click reset. | Leaderboard reset as expect to default "player" "Score". | ![screenshot](documentation/defensive/reset.png) |
+| | Restart button should reset the game to its initial state. |Start a game, get a score, click restart. | Game reset to it's initial state. |![screenshot](documentation/defensive/restart.png) |
+| Social Media Icons | Social media Links should open to the correct pages in a new tab. | Click each link to verify its path | Links work as expected | 
+| Sequence Tracking | Game should only proceed if user input matches the correct sequence | Enter wrong sequence. | Game ends, save modal appears. | ![screenshot](documentation/defensive/modal.png) |
+| Name input | Input field of modal should require a name to save score, otherwise it throws an error. | Try to submit with no name added to input field. | A error is thrown ("please enter a valid name") | ![screenshot](documentation/defensive/invalid-name.png) |
+| Round Tracker | Feature is expected to track the current round a user is on. | Play multiple game to ensure round count is increasing. | Round updated as expected. | ![screenshot](documentation/defensive/round-tracking.png) |
+| 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
+| Page is expected to redirect the user back to index.html after 5 seconds. | Navigated to an invalid URL (e.g., `/test`). | The countdown appeard and i was navigated back to index.html once the countdown had finished. | ![screenshot](documentation/defensive/countdown.png) |
+
