@@ -83,3 +83,17 @@ Defensive programming was manually tested with the below user acceptance testing
 | 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
 | Page is expected to redirect the user back to index.html after 5 seconds. | Navigated to an invalid URL (e.g., `/test`). | The countdown appeard and i was navigated back to index.html once the countdown had finished. | ![screenshot](documentation/defensive/countdown.png) |
 
+## User Story Testing
+
+| Target | Expectation | Outcome | Screenshot |
+| --- | --- | --- | --- |
+| As a player | I want to see a clear start button on the screen | so that I can begin the game. | ![screenshot](documentation/features/start.png) |
+| As a player |  I want to understand the rules of the game before starting | so that I know how to play. | ![screenshot](documentation/features/rules.png) |
+| As a player | I want the game to display a sequence of coloured lights | so that I can memorize and repeat it. | ![screenshot](documentation/features/ai-turn.png) |
+| As a player |  I want to press the correct sequence of coloured buttons | so that I can advance to the next round. | ![screenshot](documentation/features/user-input.png) |
+| As a player |  I want the sequence to increase in difficulty as I progress | so that the game remains challenging. | ![screenshot](documentation/features/difficulty.png) |
+| As a player | I want the game to provide instant feedback when I press a button | so that I know if my input was correct or incorrect. | ![screenshot](documentation/features/ai-turn.png) |
+| As a player | I want the game to show my score after each round | so that I can track my progress. | ![screenshot](documentation/features/round.png) |
+| As a player | I want the option to restart the game after losing | so that I can try again. | ![screenshot](documentation/features/restart.png) |
+| As a player | I want my highest score to be saved | so that I can challenge myself to beat it. | ![screenshot](documentation/features/leaderboard.png) |
+
