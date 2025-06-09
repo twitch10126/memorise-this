@@ -67,4 +67,13 @@ describe("game tests", () => {
             expect(game.gameSequence.length).toBe(1);
         });
     });
+
+    describe("nextRound tests", () => {
+        test("nextRound increases round by 1 ", () => {
+            game.round = 2;
+            nextRound();
+            expect(game.round).toBe(3);
+        });
+    });
+
 });
