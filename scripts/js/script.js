@@ -1,7 +1,6 @@
 /* jshint esversion: 11, jquery: true */
 
 // when the document is fully loaded the script will run
-$(document).ready(function () {
 
     // game object
     let game = {
@@ -376,4 +375,6 @@ $(document).ready(function () {
         }
     );
 
-});
+    module.exports = { game, nextRound, nextColor };
+
+
