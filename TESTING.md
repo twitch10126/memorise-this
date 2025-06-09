@@ -178,3 +178,11 @@ All previously closed/fixed bugs can be tracked [here](https://www.github.com/tw
 
 ![screenshot](documentation/bugs/gh-issues-closed.png)
 
+### Unfixed Bugs
+
+[![GitHub issues](https://img.shields.io/github/issues/twitch10126/memorise-this)](https://www.github.com/twitch10126/memorise-this/issues)
+
+Any remaining open issues can be tracked [here](https://www.github.com/twitch10126/memorise-this/issues).
+
+![screenshot](documentation/bugs/gh-issues-open.png)
+
