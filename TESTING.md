@@ -14,3 +14,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 |  | [404.html](https://github.com/twitch10126/memorise-this/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/memorise-this/404.html) | ![screenshot](documentation/validation/404-validation.png) | No errors found |
 |  | [index.html](https://github.com/twitch10126/memorise-this/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/memorise-this/index.html) | ![screenshot](documentation/validation/index-validation.png) | No errors found |
 
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| Directory | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+| assets | [style.css](https://github.com/twitch10126/memorise-this/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://twitch10126.github.io/memorise-this) | ![screenshot](documentation/validation/css-validation.png) | No errors found |
+
