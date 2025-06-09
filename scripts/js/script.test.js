@@ -7,3 +7,5 @@ const $ = require('jquery');
 global.$ = $;
 global.jQuery = $;
 
+const { game, nextColor, nextRound } = require('./script.js');
+
