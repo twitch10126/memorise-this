@@ -186,3 +186,11 @@ Any remaining open issues can be tracked [here](https://www.github.com/twitch101
 
 ![screenshot](documentation/bugs/gh-issues-open.png)
 
+### Known Issues
+
+| Issue | Screenshot |
+| --- | --- |
+| On devices smaller than 234px, the content in the center starts to hide behind the coloured buttons. | ![screenshot](documentation/issues/hidden-content.png) |
+
+> [!IMPORTANT]
+> There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
