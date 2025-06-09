@@ -23,3 +23,15 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | --- | --- | --- | --- | --- |
 | assets | [style.css](https://github.com/twitch10126/memorise-this/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://twitch10126.github.io/memorise-this) | ![screenshot](documentation/validation/css-validation.png) | No errors found |
 
+
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| Directory | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+| scripts | [404.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/404.js) | N/A | ![screenshot](documentation/validation/404-js-validation.png) | No errors found |
+| scripts | [script.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.js) | N/A | ![screenshot](documentation/validation/script-js-validation.png) | No errors found |
+| scripts | [script.test.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.test.js) | N/A | ![screenshot](documentation/validation/js-scripts-script.test.png) | Notes (if applicable) |
+
+
