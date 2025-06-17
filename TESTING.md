@@ -32,7 +32,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | --- | --- | --- | --- | --- |
 | scripts | [404.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/404.js) | N/A | ![screenshot](documentation/validation/404-js-validation.png) | No errors found |
 | scripts | [script.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.js) | N/A | ![screenshot](documentation/validation/script-js-validation.png) | No errors found |
-| scripts | [script.test.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.test.js) | N/A | ![screenshot](documentation/validation/js-scripts-script.test.png) | Notes (if applicable) |
+
 
 
 ## Responsiveness
@@ -76,12 +76,12 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Coloured buttons (red, blue, green, purple) should not be clickable during the AI's turn. | Click the coloured buttons while the AI sequence is playing | Buttons are disabled during AI turn. | ![screenshot](documentation/defensive/ai-turn.png) |
 | | Reset button should reset local storage. | Update leaderboard with some scores then click reset. | Leaderboard reset as expect to default "player" "Score". | ![screenshot](documentation/defensive/reset.png) |
 | | Restart button should reset the game to its initial state. |Start a game, get a score, click restart. | Game reset to it's initial state. |![screenshot](documentation/defensive/restart.png) |
-| Social Media Icons | Social media Links should open to the correct pages in a new tab. | Click each link to verify its path | Links work as expected | 
+| Social Media Icons | Social media Links should open to the correct pages in a new tab. | Click each link to verify its path | Links work as expected | ![screenshot](documentation/defensive/social.png) |
 | Sequence Tracking | Game should only proceed if user input matches the correct sequence | Enter wrong sequence. | Game ends, save modal appears. | ![screenshot](documentation/defensive/modal.png) |
 | Name input | Input field of modal should require a name to save score, otherwise it throws an error. | Try to submit with no name added to input field. | A error is thrown ("please enter a valid name") | ![screenshot](documentation/defensive/invalid-name.png) |
 | Round Tracker | Feature is expected to track the current round a user is on. | Play multiple game to ensure round count is increasing. | Round updated as expected. | ![screenshot](documentation/defensive/round-tracking.png) |
 | 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
-| Page is expected to redirect the user back to index.html after 5 seconds. | Navigated to an invalid URL (e.g., `/test`). | The countdown appeard and i was navigated back to index.html once the countdown had finished. | ![screenshot](documentation/defensive/countdown.png) |
+| | Page is expected to redirect the user back to index.html after 5 seconds. | Navigated to an invalid URL (e.g., `/test`). | The countdown appeard and i was navigated back to index.html once the countdown had finished. | ![screenshot](documentation/defensive/countdown.png) |
 
 ## User Story Testing
 
