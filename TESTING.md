@@ -129,7 +129,7 @@ Due to a change in Jest's default configuration, you'll need to add the followin
  * @jest-environment jsdom
  */
 
-const { test, expect } = require("@jest/globals");
+const { describe, beforeAll, test, expect } = require("@jest/globals");
 const { game, nextColor, nextRound } = require('./script.js');
 
 beforeAll(() => {
