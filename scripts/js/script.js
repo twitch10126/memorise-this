@@ -376,6 +376,6 @@ $("a").hover(
     }
 );
 
-    module.exports = { game, nextRound, nextColor };
-
-
+if (typeof module !== "undefined") module.exports = {
+    game, nextRound, nextColor,
+};
