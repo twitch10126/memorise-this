@@ -7,6 +7,7 @@ const $ = require('jquery');
 global.$ = $;
 global.jQuery = $;
 
+const { test, expect } = require("@jest/globals");
 const { game, nextColor, nextRound } = require('./script.js');
 
 // load html into test environment
