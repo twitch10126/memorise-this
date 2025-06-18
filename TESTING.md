@@ -32,6 +32,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | --- | --- | --- | --- | --- |
 | scripts | [404.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/404.js) | N/A | ![screenshot](documentation/validation/404-js-validation.png) | No errors found |
 | scripts | [script.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.js) | N/A | ![screenshot](documentation/validation/script-js-validation.png) | No errors found |
+| scripts | [script.test.js](https://github.com/twitch10126/memorise-this/blob/main/scripts/js/script.test.js) | N/A | ![screenshot](documentation/validation/script-js-test-validation.png) | No errors found |
 
 
 
