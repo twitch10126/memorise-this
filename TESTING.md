@@ -129,10 +129,10 @@ Due to a change in Jest's default configuration, you'll need to add the followin
  */
 
 const { test, expect } = require("@jest/globals");
-const { function1, function2, function3, etc. } = require("../script-name");
+const { game, nextColor, nextRound } = require('./script.js');
 
 beforeAll(() => {
-    let fs = require("fs");
+    let fs = require('fs');
     let fileContents = fs.readFileSync("index.html", "utf-8");
     document.open();
     document.write(fileContents);
@@ -142,11 +142,19 @@ beforeAll(() => {
 
 Remember to adjust the `fs.readFileSync()` to the specific file you'd like you test. The example above is testing the `index.html` file.
 
+As i am using jQuery in my `script.js` this code is added to the top of the file to ensure the tests can run.
+
+```js
+const $ = require('jquery');
+global.$ = $;
+global.jQuery = $;
+```
+
 Finally, at the bottom of the script file where your primary scripts are written, include the following at the very bottom of the file. Make sure to include the name of all of your functions that are being tested in the `.test.js` file.
 
 ```js
 if (typeof module !== "undefined") module.exports = {
-    function1, function2, function3, etc.
+    game, nextRound, nextColor,
 };
 ```
 
