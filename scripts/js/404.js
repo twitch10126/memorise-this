@@ -1,3 +1,5 @@
+/* jshint esversion: 11, jquery: true */
+
 const redirect = [5, 4, 3, 2, 1];
 redirect.forEach((num, index) => {
     setTimeout(() => {
